@@ -1,12 +1,25 @@
 package com.ujjwal_Learning.LeetCodeQuestions;
 
-public class So {
+public class SortColorsLeetCode75 {
+	
+	/*
+	 * Example 1:
+	 * 
+	 * Input: nums = [2,0,2,1,1,0] Output: [0,0,1,1,2,2]
+	 * 
+	 * Example 2:
+	 * 
+	 * Input: nums = [2,0,1] Output: [0,1,2]
+	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+
+
+	}
 	
-	    public void sortColors(int[] nums) {
+	 public void sortColors(int[] nums) {
 	        int lo = 0; 
 	        int hi = nums.length - 1; 
 	        int mid = 0; 
@@ -34,5 +47,4 @@ public class So {
 	            } 
 	        }
 	    }
-	}
 }
