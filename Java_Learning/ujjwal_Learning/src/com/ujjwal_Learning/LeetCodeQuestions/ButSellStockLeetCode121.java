@@ -46,4 +46,36 @@ public class ButSellStockLeetCode121 {
 		return currentProfit > tempProfit ? currentProfit : tempProfit;
 	}
 
+	public int maxProfit1(int[] prices) {
+		int ans = 0;
+		if (prices.length == 0) {
+			return ans;
+		}
+		int bought = prices[0];
+		for (int i = 1; i < prices.length; i++) {
+			if (prices[i] > bought) {
+				if (ans < (prices[i] - bought)) {
+					ans = prices[i] - bought;
+				}
+			} else {
+				bought = prices[i];
+			}
+		}
+		return ans;
+	}
+
+	public int maxProfit2(int[] prices) {
+		if (prices.length == 0)
+			return 0;
+		int smallest = prices[0];
+		int maxofall = 0;
+		for (int i = 0; i < prices.length; i++) {
+			if (prices[i] < smallest)
+				smallest = prices[i];
+			int profit = prices[i] - smallest;
+			maxofall = Math.max(profit, maxofall);
+		}
+		return maxofall;
+	}
+
 }
