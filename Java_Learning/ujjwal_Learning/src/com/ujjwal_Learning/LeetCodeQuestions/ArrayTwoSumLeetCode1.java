@@ -34,25 +34,34 @@ public class ArrayTwoSumLeetCode1 {
 
 	}
 
+	@SuppressWarnings("unused")
 	private static int[] twoSum(int[] nums, int k) {
 		int[] ans = new int[2];
 		
 		int n = nums.length;
 		
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < n-1; i++) {
 			int num1 = nums[i];
-			for (int j = 0; j < n; j++) {
+			boolean flag = false;
+			for (int j = i+1; j < n; ++j) {
 				
 				int num2 = nums[j];
 				
 				if ((num2 + num1) == k) {
 					
-					if( i > j)
-					ans[1] = i;
-					ans[0] = j;
-					break;
+					ans[0] = i;
+					ans[1] = j;
+					flag = true;
 				}
+				break;
 			}
+			
+			if(flag) {
+				break;	
+			} else {
+				continue;
+			}
+			
 		}
 
 		return ans;
