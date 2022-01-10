@@ -35,11 +35,13 @@ public class PlusOneLeetCode66 {
 
 		for (int i = n - 1; i >= 0; i--) {
 
+			// when last element is less than 9
 			if (digits[i] < 9) {
 				digits[i]++;
 				return digits;
 			}
-
+			
+			// storing the unit place with 0 since max it will form 10 
 			digits[i] = 0;
 		}
 
