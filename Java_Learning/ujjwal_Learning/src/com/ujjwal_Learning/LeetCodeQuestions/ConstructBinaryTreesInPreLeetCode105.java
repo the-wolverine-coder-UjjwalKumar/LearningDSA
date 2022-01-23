@@ -3,7 +3,7 @@ package com.ujjwal_Learning.LeetCodeQuestions;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ConstructBinaryTreesLeetCode105 {
+public class ConstructBinaryTreesInPreLeetCode105 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
