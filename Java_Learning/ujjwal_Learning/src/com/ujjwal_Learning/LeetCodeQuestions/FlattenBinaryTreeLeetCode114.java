@@ -9,54 +9,53 @@ public class FlattenBinaryTreeLeetCode114 {
 		// TODO Auto-generated method stub
 
 	}
-	
-	//method -1
+
+	// method -1
 	TreeNode prev = null;
-    public void flatten(TreeNode root) {
-        if(root == null) return; 
-        
-        flatten(root.right); 
-        flatten(root.left); 
-        
-        root.right = prev;
-        root.left = null; 
-        prev = root; 
-    }
-    
-    
-    //method - 2
-    public void flatten2(TreeNode root) {
-        if(root == null) return; 
-        
-        Deque<TreeNode> st = new ArrayDeque<>(); 
-        st.push(root); 
-        while(!st.isEmpty()) {
-            TreeNode cur = st.peek();
-            st.pop();
-            
-            if(cur.right != null) {
-                st.push(cur.right); 
-            }
-            if(cur.left != null) {
-                st.push(cur.left); 
-            }
-            if(!st.isEmpty()) {
-                cur.right = st.peek(); 
-            }
-            cur.left = null;
-        }
-        
-    }
-    
-    public void flatten3(TreeNode root) { //O(n) +<
-        TreeNode cur = root;
-		while (cur != null)
-		{
-			if(cur.left != null)
-			{
+
+	public void flatten(TreeNode root) {
+		if (root == null)
+			return;
+
+		flatten(root.right);
+		flatten(root.left);
+
+		root.right = prev;
+		root.left = null;
+		prev = root;
+	}
+
+	// method - 2
+	public void flatten2(TreeNode root) {
+		if (root == null)
+			return;
+
+		Deque<TreeNode> st = new ArrayDeque<>();
+		st.push(root);
+		while (!st.isEmpty()) {
+			TreeNode cur = st.peek();
+			st.pop();
+
+			if (cur.right != null) {
+				st.push(cur.right);
+			}
+			if (cur.left != null) {
+				st.push(cur.left);
+			}
+			if (!st.isEmpty()) {
+				cur.right = st.peek();
+			}
+			cur.left = null;
+		}
+
+	}
+
+	public void flatten3(TreeNode root) { // O(n) +<
+		TreeNode cur = root;
+		while (cur != null) {
+			if (cur.left != null) {
 				TreeNode pre = cur.left;
-				while(pre.right != null)
-				{
+				while (pre.right != null) {
 					pre = pre.right;
 				}
 				pre.right = cur.right;
@@ -65,6 +64,5 @@ public class FlattenBinaryTreeLeetCode114 {
 			}
 			cur = cur.right;
 		}
-    }
+	}
 }
-
