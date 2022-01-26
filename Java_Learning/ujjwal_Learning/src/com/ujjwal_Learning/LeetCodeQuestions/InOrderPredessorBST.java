@@ -6,21 +6,26 @@ public class InOrderPredessorBST {
 		// TODO Auto-generated method stub
 
 	}
+	/*
+	 * Inorder predecessor is the node which traversed before given node in inorder
+	 * traversal of binary tree. In binary search tree, it’s the previous big value
+	 * before a node.
+	 */
 
-	public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
+	public TreeNode inorderPredessor(TreeNode root, TreeNode p) {
 
-		TreeNode successor = null;
+		TreeNode inorderPredessorVal = null;
 
 		while (root != null) {
 
-			if (p.val >= root.val) {
-				root = root.right;
-			} else {
-				successor = root;
+			if (root.val >= p.val) {
 				root = root.left;
+			} else {
+				inorderPredessorVal = root;
+				root = root.right;
 			}
 		}
 
-		return successor;
+		return inorderPredessorVal;
 	}
 }
