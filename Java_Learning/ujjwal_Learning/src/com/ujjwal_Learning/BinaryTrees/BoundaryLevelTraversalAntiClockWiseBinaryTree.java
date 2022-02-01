@@ -1,4 +1,4 @@
-package com.ujjwal_Learning.BinaryTrees;
+package com.ujjwal_Learning.binaryTrees;
 
 import java.util.ArrayList;
 
