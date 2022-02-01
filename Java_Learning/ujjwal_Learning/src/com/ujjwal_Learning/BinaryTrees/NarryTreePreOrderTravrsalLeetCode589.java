@@ -1,9 +1,7 @@
-package com.ujjwal_Learning.BinaryTrees;
+package com.ujjwal_Learning.binaryTrees;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import org.w3c.dom.Node;
 
 public class NarryTreePreOrderTravrsalLeetCode589 {
 
