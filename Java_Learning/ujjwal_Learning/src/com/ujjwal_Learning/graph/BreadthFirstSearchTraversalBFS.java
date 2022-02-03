@@ -5,10 +5,15 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class BreadthFirstTraversalBFS {
+public class BreadthFirstSearchTraversalBFS {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		/*
+		 * Providing the edges !! 12 23 34 45 52 Adjacency List :: [[], [2], [1, 3, 5],
+		 * [2, 4], [3, 5], [4, 2]]
+		 */
 		
 		// assume total number of vertices and adjacency list for the graph is provided 
 		Scanner sc = new Scanner(System.in);
