@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class IsBipartiteGraphBFS {
+public class IsBipartiteGraphBFSLeetCode785 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
