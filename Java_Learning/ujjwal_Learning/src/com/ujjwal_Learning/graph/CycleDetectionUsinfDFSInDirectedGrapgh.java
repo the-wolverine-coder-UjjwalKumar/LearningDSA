@@ -1,7 +1,6 @@
 package com.ujjwal_Learning.graph;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class CycleDetectionUsinfDFSInDirectedGrapgh {
