@@ -11,7 +11,7 @@ public class AdjacencyListUserInputGraph {
 		//taking input a graph
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter the umber of vertices in a graph :: ");
+		System.out.println("Enter the number of vertices in a graph :: ");
 		int n = sc.nextInt();
 		
 		System.out.println("Enter the number of edges present in a graph :: ");
