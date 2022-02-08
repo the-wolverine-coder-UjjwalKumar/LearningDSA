@@ -16,7 +16,7 @@ public class CourseSchedule2LeetCode201 {
 	}
 	//my solution
     public int[] findOrderMySol(int numCourses, int[][] prerequisites) {
-
+    	
         // create the array lists to represent the courses
         ArrayList<ArrayList<Integer>> courses = new ArrayList<>();
         for(int i=0; i<numCourses; i++) {
