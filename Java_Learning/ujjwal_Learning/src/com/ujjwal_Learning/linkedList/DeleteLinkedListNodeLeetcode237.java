@@ -1,10 +1,10 @@
 package com.ujjwal_Learning.linkedList;
 
-class ListNode {
+class Node {
 	int data;
-	ListNode next;
+	Node next;
 
-	ListNode(int x) {
+	Node(int x) {
 		data = x;
 		next = null;
 	}
@@ -21,17 +21,17 @@ public class DeleteLinkedListNodeLeetcode237 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ListNode head = new ListNode(4);
-		head.next = new ListNode(5);
-		head.next.next = new ListNode(6);
-		head.next.next.next = new ListNode(7);
+		Node head = new Node(4);
+		head.next = new Node(5);
+		head.next.next = new Node(6);
+		head.next.next.next = new Node(7);
 		System.out.println("Linked List before deletion :: ");
 		printList(head);
 		
 		// delete node 6
-		ListNode temp = head;
+		Node temp = head;
 		int key = 6;
-		ListNode keyReference = null;
+		Node keyReference = null;
 		while(temp!=null) {
 			if(temp.data==key) {
 				keyReference = temp;
@@ -48,14 +48,12 @@ public class DeleteLinkedListNodeLeetcode237 {
 		
 	}
 
-	private static void printList(ListNode head) {
+	public static void printList(Node head) {
 		while (head != null) {
 			System.out.print(head.data + " -> ");
 			head = head.next;
 		}
 		System.out.print("NULL\n");
-		
-
 	}
 	// direct the reference of pointer given which we need to delete
 	// no head pointer is given
@@ -64,12 +62,12 @@ public class DeleteLinkedListNodeLeetcode237 {
 	// the
 	// current data and last make the tail as null and return
 
-	public static void deleteNode(ListNode node) {
+	public static void deleteNode(Node node) {
 
 		if (node != null && node.next != null) {
-			ListNode temp = node;
-			ListNode prevNode = null;
-			ListNode nextNode = null;
+			Node temp = node;
+			Node prevNode = null;
+			Node nextNode = null;
 			while (temp.next != null) {
 				prevNode = temp;
 				nextNode = temp.next;
@@ -88,7 +86,7 @@ public class DeleteLinkedListNodeLeetcode237 {
 	}
 	
 	//method - 2
-	public static void deleteNode2(ListNode node) {
+	public static void deleteNode2(Node node) {
 	    node.data = node.next.data;
 	    node.next = node.next.next;
 	}
