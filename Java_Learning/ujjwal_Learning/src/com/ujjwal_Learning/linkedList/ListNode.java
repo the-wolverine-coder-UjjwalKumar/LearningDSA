@@ -23,4 +23,8 @@ public class ListNode {
 		}
 		System.out.print("NULL\n");
 	}
+	
+	public int getVal() {
+		return this.val;
+	}
 }
