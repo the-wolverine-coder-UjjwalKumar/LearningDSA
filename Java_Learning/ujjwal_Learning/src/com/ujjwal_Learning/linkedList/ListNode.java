@@ -1,6 +1,8 @@
 package com.ujjwal_Learning.linkedList;
 
-public class ListNode {
+import java.util.Comparator;
+
+public class ListNode implements Comparator<ListNode>{
 	int val;
 	ListNode next;
 
@@ -26,5 +28,13 @@ public class ListNode {
 	
 	public int getVal() {
 		return this.val;
+	}
+
+	@Override
+	public int compare(ListNode n1, ListNode n2) {
+		if(n1.val > n2.val) return 1; // for making min heap
+		else if(n1.val < n2.val) return -1;
+		
+		return 0;
 	}
 }
