@@ -27,25 +27,25 @@ public class DeleteLinkedListNodeLeetcode237 {
 		head.next.next.next = new Node(7);
 		System.out.println("Linked List before deletion :: ");
 		printList(head);
-		
+
 		// delete node 6
 		Node temp = head;
 		int key = 6;
 		Node keyReference = null;
-		while(temp!=null) {
-			if(temp.data==key) {
+		while (temp != null) {
+			if (temp.data == key) {
 				keyReference = temp;
 				break;
 			}
-			
+
 			temp = temp.next;
 		}
-		
-		//calling delete function
+
+		// calling delete function
 		deleteNode2(keyReference);
 		System.out.println("Linked List after deletion :: ");
 		printList(head);
-		
+
 	}
 
 	public static void printList(Node head) {
@@ -71,24 +71,36 @@ public class DeleteLinkedListNodeLeetcode237 {
 			while (temp.next != null) {
 				prevNode = temp;
 				nextNode = temp.next;
-				
+
 				int nextData = nextNode.data;
 
 				temp.data = nextData;
 				temp = temp.next;
 			}
-			
+
 			// removing the last key value from list
 			prevNode.next = null;
 		}
 
 		return;
 	}
-	
-	//method - 2
+
+	// method - 2
 	public static void deleteNode2(Node node) {
-	    node.data = node.next.data;
-	    node.next = node.next.next;
+		node.data = node.next.data;
+		node.next = node.next.next;
+	}
+
+	//  method-2 implementation
+	public static void deleteNode(ListNode node) {
+
+		if (node == null)
+			return;
+
+		node.val = node.next.val;
+		node.next = node.next.next;
+
+		return;
 	}
 
 }
