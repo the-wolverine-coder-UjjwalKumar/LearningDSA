@@ -6,7 +6,7 @@ public class AddBinaryLeetCode67 {
 		// TODO Auto-generated method stub
 
 	}
-
+	
 	public String addBinary(String a, String b) {
 		StringBuilder res = new StringBuilder();
 		int i = a.length() - 1;

@@ -28,6 +28,7 @@ public class AddArrayToFormIntegerLeetCode989 {
             res.add(0, K % 10);
             K /= 10;
         }
+        
         return res;
 	}
 	
