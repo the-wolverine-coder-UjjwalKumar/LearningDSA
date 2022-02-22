@@ -18,70 +18,29 @@ public class CombinationSumLeetCode39 {
 		}
 	}
 
+	// one element can be used multiple times + order of combination doesn't matter
 	public List<List<Integer>> combinationSum(int[] candidates, int target) {
-		List<List<Integer>> finalAns = new ArrayList<>();
-
-		List<Integer> tempDS = new ArrayList<>();
-		int currentSum = 0;
-		int n = candidates.length;
-		getCombination(0, finalAns, tempDS, candidates, target, currentSum, n);
-
-		return finalAns;
+		List<List<Integer>> ans = new ArrayList<>();
+		findCombinations(0, candidates, target, ans, new ArrayList<>());
+		return ans;
 	}
 
-	private void getCombination(int index, List<List<Integer>> finalAns, List<Integer> tempDS, int[] candidates,
-			int target, int currentSum, int n) {
-
-		if (currentSum == target) {
-			finalAns.add(new ArrayList<>(tempDS));
+	private void findCombinations(int ind, int[] arr, int target, List<List<Integer>> ans, List<Integer> ds) {
+		if (ind == arr.length) {
+			if (target == 0) {
+				ans.add(new ArrayList<>(ds)); // here ds is passed by reference and changes
+				// will affect the original one hence make new one and add to ans
+				// ans.add(ds); not this.
+			}
 			return;
 		}
 
-		if (currentSum > target) {
-			return;
+		if (arr[ind] <= target) {
+			ds.add(arr[ind]);
+			findCombinations(ind, arr, target - arr[ind], ans, ds);
+			ds.remove(ds.size() - 1);
 		}
-
-		if (index >= n || currentSum >= target) {
-			return;
-		}
-
-		// when current element is not included
-		getCombination(index, finalAns, tempDS, candidates, target, currentSum, n);
-
-		// when current element is taken
-		tempDS.add(candidates[index]);
-		getCombination(index + 1, finalAns, tempDS, candidates, target, currentSum + candidates[index], n);
-		tempDS.remove(tempDS.get(index) + 1);
-
-		return;
-	}
-
-	static List<List> combinationSum2(int[] candidates, int target) {
-		List<List> result = new ArrayList<>();
-		helper(candidates, target, 0, 0, new ArrayList<>(), result);
-		return result;
-	}
-
-	static void helper(int[] candidates, int target, int index, int currTotal, List<Integer> chosen,
-			List<List<Integer>> result) {
-		if (currTotal == target) {
-			result.add(new ArrayList<>(chosen));
-			return;
-		}
-		if (index >= candidates.length || currTotal > target)
-			return;
-
-		// choose
-		int choose = candidates[index];
-		chosen.add(choose);
-
-		// explore - when we include
-		// see if this chosen list got to target
-		helper(candidates, target, index, currTotal + choose, chosen, result);
-
-		// explore when we don't include
-		chosen.remove(chosen.size() - 1);
-		helper(candidates, target, index + 1, currTotal, chosen, result);
+		findCombinations(ind + 1, arr, target, ans, ds);
 	}
 
 }
