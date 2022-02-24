@@ -45,7 +45,7 @@ public class LetterCasePermutationLeetCode784 {
         }
         
         List<String> res = new LinkedList<>();
-        helper(S.toCharArray(), res, 0);
+        helperDFS(S.toCharArray(), res, 0);
         return res;
     }
     
