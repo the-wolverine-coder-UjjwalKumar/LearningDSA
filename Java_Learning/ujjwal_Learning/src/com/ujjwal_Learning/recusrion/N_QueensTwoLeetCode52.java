@@ -94,7 +94,7 @@ public class N_QueensTwoLeetCode52 {
     public int totalNQueens(int n) {
         return totalNQueensHelper(0, 0, n);
     }
-
+    
     private int totalNQueensHelper(int row, int count, int n) {
         for (int col = 0; col < n; col++) {
             if (occupiedCols.contains(col))
