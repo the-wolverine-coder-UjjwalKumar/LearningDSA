@@ -37,6 +37,10 @@ public class FractionAdditionSubtrationLeetCode592 {
 //	(.*)    Capture all
 //	(ab|cd) Matches ab or cd
 
+	
+//	Keep the overall result in A / B, read the next fraction into a / b.
+//	Their sum is (Ab + aB) / Bb (but cancel their greatest common divisor).
+	
 	public String fractionAddition(String expression) {
 	    Scanner sc = new Scanner(expression).useDelimiter("/|(?=[-+])"); // delimiter the string with / or -+
 	    
