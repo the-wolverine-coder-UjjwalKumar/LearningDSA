@@ -7,6 +7,7 @@ public class CycleInLinkedListLeetCode141 {
 
 	}
 	
+	// using the slow and fast pointer concept
 	public boolean hasCycle(ListNode head) {
 	        
 	        if(head==null) return false;
