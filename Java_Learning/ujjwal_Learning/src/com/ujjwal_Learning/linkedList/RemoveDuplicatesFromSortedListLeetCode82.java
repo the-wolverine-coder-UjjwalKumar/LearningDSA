@@ -34,18 +34,18 @@ public class RemoveDuplicatesFromSortedListLeetCode82 {
 		return dummy.next;
 	}
 
-	public ListNode deleteDuplicatesRecrsive(ListNode head) {
-		if (head == null || head.next == null)
-			return head;
+	public ListNode deleteDuplicates2(ListNode head) {
+        if( head == null || head.next == null)
+            return head;
 
-		if (head.next.val != head.val) {
-			head.next = deleteDuplicatesRecrsive(head.next);
-		} else {
-			while (head.next != null && head.val == head.next.val)
-				head = head.next;
-			return deleteDuplicatesRecrsive(head.next);
-		}
-		return head;
-	}
+        if(head.next.val != head.val) {
+                head.next = deleteDuplicates(head.next);
+        } else {
+            while(head.next != null && head.val == head.next.val)
+                head = head.next;
+            return deleteDuplicates(head.next);
+        }
+        return head;
+    }
 
 }
