@@ -7,6 +7,7 @@ public class ClimbingStairsDPLeetCode70 {
 
 	}
 
+	// DP approach
 	public int climbStairs(int n) {
 		int memo[] = new int[n + 1];
 		int ans = rec(n, memo);
