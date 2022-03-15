@@ -12,6 +12,22 @@ public class UniquePathFromStartToEnd {
 		System.out.println(countWays(m, n));
 	}
 
+	//Recursive Code
+	static int countWaysRecursive(int i, int j) { // call at n-1 m-1
+		if (i == 0 && j == 0)
+			return 1;
+		if (i < 0 || j < 0)
+			return 0;
+		
+
+		int up = countWaysRecursive(i - 1, j);
+		int left = countWaysRecursive(i, j - 1);
+
+		return up + left;
+
+	}
+	
+	//Memoized Code
 	static int countWays(int m, int n) {
 		int dp[][] = new int[m][n];
 		for (int[] row : dp)
