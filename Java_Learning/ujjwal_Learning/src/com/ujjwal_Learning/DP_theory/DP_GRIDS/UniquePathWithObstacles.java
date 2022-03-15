@@ -14,6 +14,26 @@ public class UniquePathWithObstacles {
 		System.out.println(mazeObstacles(n, m, maze));
 	}
 
+	// Recursive Code
+	// Recursive Code
+	static int mazeObstaclesRecursive(int i, int j, int[][] maze) { // call at n-1 m-1
+		
+		if (i > 0 && j > 0 && maze[i][j] == -1)
+			return 0;
+		
+		if (i == 0 && j == 0)
+			return 1;
+		if (i < 0 || j < 0)
+			return 0;
+
+		int up = mazeObstaclesRecursive(i - 1, j, maze);
+		int left = mazeObstaclesRecursive(i, j - 1, maze);
+
+		return up + left;
+
+	}
+
+	// Memoized Code
 	static int mazeObstacles(int n, int m, int[][] maze) {
 		int dp[][] = new int[n][m];
 		for (int row[] : dp)
