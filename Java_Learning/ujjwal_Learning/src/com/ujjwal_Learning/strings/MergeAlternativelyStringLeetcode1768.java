@@ -7,7 +7,7 @@ package com.ujjwal_Learning.strings;
  * @author ujjwa
  *
  */
-public class MergeAlternativelyString {
+public class MergeAlternativelyStringLeetcode1768 {
 
 	/**
 	 * @param args
