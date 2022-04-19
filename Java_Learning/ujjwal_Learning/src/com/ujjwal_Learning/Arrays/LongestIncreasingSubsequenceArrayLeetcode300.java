@@ -7,6 +7,7 @@ public class LongestIncreasingSubsequenceArrayLeetcode300 {
 
 	}
 
+	// Method to get the length of LIS
 	public int lengthOfLIS(int[] nums) {
 		int[] tails = new int[nums.length];
 		int size = 0;
