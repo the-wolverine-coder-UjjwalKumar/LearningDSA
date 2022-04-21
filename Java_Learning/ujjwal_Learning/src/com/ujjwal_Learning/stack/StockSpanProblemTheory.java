@@ -1,27 +1,11 @@
 package com.ujjwal_Learning.stack;
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Stack;
 
 public class StockSpanProblemTheory {
-	
-	public class  Pair {
-		
-		private int ele;
-		private int index;
-		
-		public Pair(int _ele, int _index) {
-			ele = _ele;
-			index = _index;
-		}
-		
-		public int getIndex() {
-			return index;
-		}
-		
-		public int getEle() {
-			return ele;
-		}
-	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -31,35 +15,53 @@ public class StockSpanProblemTheory {
 		
 		// IP - arr : {100, 80, 60, 70, 60, 75, 85}
 		// OP - opp : {1, 1, 1, 2, 1, 4, 6}
+		int[] arr = {100, 80, 60, 70, 60, 75, 85};
+		Map<Integer, Integer> map = new HashMap<>();
 		
+		for(int i = 0; i < arr.length; i++) {
+			map.put(arr[i], i);
+		}
 		
+		int[] nglIndexArray = getNGLIndices(arr);
+		for(int i = 0; i < nglIndexArray.length ; i++) {
+			{
+				int index;
+				if(nglIndexArray[i] == -1) {
+					index = -1;
+				} else {
+					index = map.get(nglIndexArray[i]);
+				}
+				nglIndexArray[i] = Math.abs(index - i);
+			}
+		}
+		System.out.println("NGL Index Array"+Arrays.toString(nglIndexArray));
 		
 
 	}
 	
-	private static int[] getNGL(int[] arr) {
+	private static int[] getNGLIndices(int[] arr) {
 		int n = arr.length;
-		Stack<Pair> stack = new Stack<>();
+		Stack<Integer> stack = new Stack<>();
 
 		int[] ans = new int[n];
 		for (int i = 0; i < n; i++) {
 
 			if (stack.isEmpty()) {
 				ans[i] = -1;
-			} else if (!stack.isEmpty() && stack.peek().getEle() > arr[i]) {
-				ans[i] = stack.peek().getEle();
-			} else if (!stack.isEmpty() && stack.peek().getEle() <= arr[i]) {
-				while (!stack.isEmpty() && stack.peek().getEle() <= arr[i]) {
+			} else if (!stack.isEmpty() && stack.peek() > arr[i]) {
+				ans[i] = stack.peek();
+			} else if (!stack.isEmpty() && stack.peek() <= arr[i]) {
+				while (!stack.isEmpty() && stack.peek() <= arr[i]) {
 					stack.pop();
 				}
 
 				if (stack.isEmpty())
 					ans[i] = -1;
 				else
-					ans[i] = stack.peek().getEle();
+					ans[i] = stack.peek();
 			}
 			
-			//stack.push(new Pair(arr[i],i));
+			stack.push(arr[i]);
 
 		}
 
