@@ -52,5 +52,7 @@ public class HappyNumberLeetCode202 {
 
 		return true;
 	}
+	
+
 
 }
