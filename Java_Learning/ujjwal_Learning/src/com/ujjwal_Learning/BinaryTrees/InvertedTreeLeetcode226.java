@@ -1,4 +1,4 @@
-package com.ujjwal_Learning.binaryTrees;
+package com.ujjwal_Learning.BinaryTrees;
 
 public class InvertedTreeLeetcode226 {
 

@@ -1,4 +1,4 @@
-package com.ujjwal_Learning.binaryTrees;
+package com.ujjwal_Learning.BinaryTrees;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
