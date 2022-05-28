@@ -3,8 +3,8 @@ package com.ujjwal_Learning.linkedList;
 import java.util.Comparator;
 
 public class ListNode implements Comparator<ListNode>{
-	int val;
-	ListNode next;
+	public int val;
+	public ListNode next;
 
 	ListNode() {
 	}
