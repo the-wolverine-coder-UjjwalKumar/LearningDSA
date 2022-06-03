@@ -9,6 +9,7 @@ public class RangeSumQueryLeetCode304 {
 
 	private int[][] dp;
 
+	// Added logic to initialize the range sum
 	public RangeSumQueryLeetCode304(int[][] matrix) {
 		if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
 			return;
