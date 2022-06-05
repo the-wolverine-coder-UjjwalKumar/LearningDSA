@@ -79,7 +79,7 @@ public class N_QueensTwoLeetCode52 {
         return res;
     }
     
-    //approach-2
+    //approach-2 here just need to count the valid solutions
     /**
      * don't need to actually place the queen,
      * instead, for each row, try to place without violation on
