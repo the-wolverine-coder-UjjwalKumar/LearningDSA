@@ -9,6 +9,7 @@ public class AddTwoNumbersLeetCode2 {
 		BigInteger bI;
 	}
 
+	// Added method to sum two number
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		ListNode dummyH = new ListNode(-1);
 		ListNode tail = dummyH;
