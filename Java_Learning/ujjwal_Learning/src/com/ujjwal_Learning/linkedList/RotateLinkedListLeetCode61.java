@@ -10,6 +10,7 @@ public class RotateLinkedListLeetCode61 {
 //	Input: head = [1,2,3,4,5], k = 2
 //			Output: [4,5,1,2,3]
 
+	// Added Solution to rotate List
 	public ListNode rotateRight(ListNode head, int k) {
 		// edge cases
 		if (head == null || head.next == null || k == 0)
