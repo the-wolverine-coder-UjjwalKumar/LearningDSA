@@ -1,3 +1,5 @@
+package com.ujjwal_Learning.numberTheory;
+
 public class LemonadeLeetcode860 {
 
     public boolean lemonadeChange(int[] bills) {
