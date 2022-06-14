@@ -10,6 +10,7 @@ public class BinaryTreePreOrderTraversalLeetcode144 {
 
 	}
 
+	// Added Leetcode solution 
 	public List<Integer> preorderTraversal(TreeNode root) {
 		List<Integer> preorder = new ArrayList<>();
 		getPreOrder(root, preorder);
