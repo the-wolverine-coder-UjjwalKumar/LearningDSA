@@ -9,6 +9,7 @@ public class DeleteOperationTwoStringLeetcode583 {
 
 	private Integer[][] dp;
 
+	// Implementation of LCS question
 	public int longestCommonSubsequence(String text1, String text2) {
 		dp = new Integer[text1.length()][text2.length()];
 		return longestCommonSubsequence(text1, text2, 0, 0);
