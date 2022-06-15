@@ -11,6 +11,7 @@ public class BalanceBinaryTreeLeetcode110 {
 		return dfsHeight(root) != -1;
 	}
 
+	// checking height using DFS
 	int dfsHeight(TreeNode root) {
 		if (root == null)
 			return 0;
