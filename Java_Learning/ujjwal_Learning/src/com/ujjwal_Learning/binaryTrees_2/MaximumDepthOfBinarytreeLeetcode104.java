@@ -7,6 +7,7 @@ public class MaximumDepthOfBinarytreeLeetcode104 {
 
 	}
 
+	// Added method to get maximum depth 
 	public int maxDepth(TreeNode root) {
 		if (root == null)
 			return 0;
