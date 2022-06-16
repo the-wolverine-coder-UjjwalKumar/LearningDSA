@@ -7,6 +7,7 @@ public class LongestPalindromicSubstringLeetcode5 {
 
 	}
 
+	// Added method to fetch longest Palindrome String
 	public String longestPalindrome(String s) {
 		int n = s.length();
 		String res = null;
