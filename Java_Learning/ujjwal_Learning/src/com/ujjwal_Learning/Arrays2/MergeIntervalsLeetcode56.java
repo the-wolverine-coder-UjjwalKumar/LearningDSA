@@ -10,6 +10,7 @@ public class MergeIntervalsLeetcode56 {
 
 	}
 
+	// added method to merge sorted intervals
 	public int[][] merge(int[][] intervals) {
 
 		if (intervals == null || intervals.length == 0)
