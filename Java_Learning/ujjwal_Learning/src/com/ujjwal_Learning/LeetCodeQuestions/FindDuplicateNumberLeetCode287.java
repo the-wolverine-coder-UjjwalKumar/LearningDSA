@@ -15,6 +15,7 @@ public class FindDuplicateNumberLeetCode287 {
 	 * Input: nums = [3,1,3,4,2] Output: 3
 	 */
 
+	// added Leetcode method to get duplicates
 	public int findDuplicate(int[] nums) {
 		for (int n : nums) {
 			if (nums[Math.abs(n)] < 0) {
