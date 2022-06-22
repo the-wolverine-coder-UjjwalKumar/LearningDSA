@@ -48,7 +48,7 @@ public class KthLargestElementLeetCode215 {
 		nums[b] = temp;
 	}
 
-	// efficient menthod using random index
+	// efficient method to get largest element
 	public int findKthLargestR(int[] nums, int k) {
 		int len = nums.length;
 		return order(nums, 0, len - 1, len + 1 - k);
