@@ -10,6 +10,7 @@ public class CourseScheduleThreeLeetcode630 {
 
 	}
 
+	// Added Solution for scheduling courses
 	public int scheduleCourse(int[][] courses) {
 
 		Arrays.sort(courses, (course1, course2) -> course1[1] - course2[1]);
