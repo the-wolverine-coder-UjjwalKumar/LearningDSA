@@ -12,6 +12,7 @@ public class MinimumDeletionToMakeCharUniqueLeetcode1647 {
 
 	}
 
+	// Added minDeletion function
 	public int minDeletions(String s) {
 		// initalize hashmap and count to return
 		HashMap<Character, Integer> map = new HashMap();
