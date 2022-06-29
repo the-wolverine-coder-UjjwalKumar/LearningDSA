@@ -12,6 +12,7 @@ public class QueueReconstructionByHeightLeetcode406 {
 
 	}
 
+	// revisit the solution
 	public int[][] reconstructQueue(int[][] people) {
 		Arrays.sort(people, new Comparator<int[]>() {
 			public int compare(int[] a, int[] b) {
