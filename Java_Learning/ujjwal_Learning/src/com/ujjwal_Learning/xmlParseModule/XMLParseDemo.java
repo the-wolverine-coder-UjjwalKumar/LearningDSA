@@ -28,7 +28,7 @@ public class XMLParseDemo {
 		
 		List<Employee> employees = new ArrayList<Employee>();
 		NodeList nodeList = document.getDocumentElement().getChildNodes();
-		
+		System.out.println("NodeLength = "+nodeList.getLength());
 		for (int i = 0; i < nodeList.getLength(); i++) {
 			Node node = nodeList.item(i);
 
