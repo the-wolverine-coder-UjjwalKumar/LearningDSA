@@ -7,6 +7,7 @@ public class WiggleSubsequenceLeetcode376 {
 
 	}
 
+	// Revist Daily Leetcode question
 	public int wiggleMaxLength(int[] nums) {
 		if (nums.length == 0)
 			return 0;
