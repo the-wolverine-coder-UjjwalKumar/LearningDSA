@@ -10,6 +10,7 @@ public class LongestConsequtiveSequenceLeetcode128 {
 
 	}
 
+	// revist daily leetcode question
 	public int longestConsecutive(int[] nums) {
 		UF uf = new UF(nums.length);
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>(); // <value,index>
