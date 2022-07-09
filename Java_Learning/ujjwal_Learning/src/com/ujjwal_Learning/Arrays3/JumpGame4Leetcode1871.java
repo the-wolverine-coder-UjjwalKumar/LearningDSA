@@ -10,6 +10,7 @@ public class JumpGame4Leetcode1871 {
 
 	}
 
+	// Daily Leetcode solution
 	public boolean canReach(String s, int min, int max) {
 		if (s.charAt(s.length() - 1) == '1')
 			return false;
