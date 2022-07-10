@@ -7,6 +7,7 @@ public class MinCOstForClimbingStairsLeetCode746 {
 
 	}
 
+	// Leetcode daily Problem
 	int[] dp;
 
 	public int minCostClimbingStairs(int[] cost) {
