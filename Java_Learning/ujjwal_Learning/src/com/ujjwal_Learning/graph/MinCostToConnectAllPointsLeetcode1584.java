@@ -10,7 +10,8 @@ public class MinCostToConnectAllPointsLeetcode1584 {
 
 	}
 
-	// Prims Algorithm
+	// Leetcode daily problem
+	// Prims Algorithm 
 	public int minCostConnectPointsPrims(int[][] points) {
 		int n = points.length, ans = 0;
 		HashSet<Integer> mst = new HashSet<>();
