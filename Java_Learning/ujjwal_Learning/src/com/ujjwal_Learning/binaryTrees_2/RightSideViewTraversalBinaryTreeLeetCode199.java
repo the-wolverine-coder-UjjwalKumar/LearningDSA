@@ -10,6 +10,7 @@ public class RightSideViewTraversalBinaryTreeLeetCode199 {
 
 	}
 
+	// revist the question
 	public List<Integer> rightSideView(TreeNode root) {
 		List<Integer> result = new ArrayList<Integer>();
 		rightView(root, result, 0);
