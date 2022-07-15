@@ -7,6 +7,7 @@ public class MaximumAreaOfIslandLeetcode695 {
 
 	}
 
+	// Daily Leetcode solution 
 	public int maxAreaOfIsland(int[][] grid) {
 		int max = 0;
 		for (int i = 0; i < grid.length; i++) {
