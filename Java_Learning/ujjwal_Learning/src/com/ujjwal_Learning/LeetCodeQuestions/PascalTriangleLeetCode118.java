@@ -21,6 +21,7 @@ public class PascalTriangleLeetCode118 {
 		sc.close();
 	}
 
+	// Daily Leetcode solution
 	private static List<List<Integer>> generatePascalTrianlge(int rowsCount) {
 
 		List<List<Integer>> res = new ArrayList<List<Integer>>();
