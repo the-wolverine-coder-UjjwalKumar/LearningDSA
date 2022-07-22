@@ -7,6 +7,7 @@ public class PartitionListLeetcode86 {
 
 	}
 
+	// Daily Leetcode solution
 	public ListNode partition(ListNode head, int x) {
 		ListNode headCopy = head;
 		ListNode h = null;
