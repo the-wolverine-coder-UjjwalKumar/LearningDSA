@@ -11,6 +11,7 @@ public class CountSmallerAfterSelfLeetcode315 {
 
 	}
 
+	// Leetcode daily solution
 	public List<Integer> countSmaller(int[] nums) {
 		Integer[] ans = new Integer[nums.length];
 		List<Integer> sorted = new ArrayList<Integer>();
