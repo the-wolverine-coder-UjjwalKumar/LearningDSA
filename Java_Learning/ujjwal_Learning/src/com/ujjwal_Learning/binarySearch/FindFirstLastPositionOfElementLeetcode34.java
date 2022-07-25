@@ -7,6 +7,7 @@ public class FindFirstLastPositionOfElementLeetcode34 {
 
 	}
 
+	// Leetcode daily solution 
 	public static int firstIndex(int[] arr, int data) {
 		int low = 0, high = arr.length - 1;
 		int fi = -1; // fi : first index
