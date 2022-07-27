@@ -50,6 +50,7 @@ public class FlattenBinaryTreeLeetCode114 {
 
 	}
 
+	// Leetcode daily question
 	public void flatten3(TreeNode root) { // O(n) +<
 		TreeNode cur = root;
 		while (cur != null) {
