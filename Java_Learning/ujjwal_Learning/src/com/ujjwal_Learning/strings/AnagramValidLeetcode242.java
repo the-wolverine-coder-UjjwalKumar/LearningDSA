@@ -9,6 +9,7 @@ public class AnagramValidLeetcode242 {
 
 	}
 
+	// Leetcode daily solution
 	public boolean isAnagram(String s, String t) {
 		int[] sLetters = new int[26];
 		int[] tLetters = new int[26];
