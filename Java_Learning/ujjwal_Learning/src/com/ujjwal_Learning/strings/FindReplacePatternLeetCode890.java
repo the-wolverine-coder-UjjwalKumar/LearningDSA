@@ -15,6 +15,7 @@ public class FindReplacePatternLeetCode890 {
 
 	}
 
+	// Leetcode daily question
 	public List<String> findAndReplacePattern2(String[] words, String pattern) {
 		Map<Character, Integer> patternMap = getMap(pattern);
 		List<String> ans = new LinkedList<>();
