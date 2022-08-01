@@ -7,6 +7,7 @@ public class MaximumSubarraySumLeetCode53 {
 
 	}
 
+	// Leetcode daily soution
 	public int maxSubArray(int[] A) {
 		int n = A.length;
 		int[] dp = new int[n];// dp[i] means the maximum subarray ending with A[i] from 0 - A[i]
