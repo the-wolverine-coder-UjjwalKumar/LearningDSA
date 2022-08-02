@@ -7,6 +7,7 @@ public class SortColorsLeetcode75 {
 
 	}
 
+	// Added Leetcode daily solution
 	public void sortColors(int[] A) {
 		if (A == null || A.length < 2)
 			return;
