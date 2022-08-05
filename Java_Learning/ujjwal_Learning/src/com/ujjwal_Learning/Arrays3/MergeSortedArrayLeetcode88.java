@@ -7,7 +7,7 @@ public class MergeSortedArrayLeetcode88 {
 
 	}
 
-	// Added method to do merge operation Leetcode daily solution
+	// Added Leetcode daily solution
 	public void merge(int[] A, int m, int[] B, int n) {
 		for (int i = m + n - 1; i >= 0; i--) {
 			if (m > 0 && n > 0) {
