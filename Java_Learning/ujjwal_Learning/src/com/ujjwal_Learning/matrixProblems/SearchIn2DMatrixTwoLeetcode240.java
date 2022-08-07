@@ -7,7 +7,7 @@ public class SearchIn2DMatrixTwoLeetcode240 {
 
 	}
 
-	// Leetcode daily solution
+	// Added Leetcode daily solution
 	public boolean searchMatrix(int[][] matrix, int target) {
 		// Starting from last element of first row (can also start from first element of
 		// last row).
