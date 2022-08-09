@@ -10,6 +10,7 @@ public class MajorityElementN3Leetcode229 {
 
 	}
 
+	// Added daily question
 	public List<Integer> majorityElement(int[] nums) {
 		Integer major1 = null, major2 = null, cnt1 = 0, cnt2 = 0;
 		for (Integer num : nums) {
