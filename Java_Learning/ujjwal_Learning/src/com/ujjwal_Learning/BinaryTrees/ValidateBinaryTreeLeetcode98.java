@@ -7,6 +7,7 @@ public class ValidateBinaryTreeLeetcode98 {
 
 	}
 
+	// Added Leetcode daily solution
 	private boolean checkBST(TreeNode node, long min, long max) {
 		if (node == null)
 			return true;
