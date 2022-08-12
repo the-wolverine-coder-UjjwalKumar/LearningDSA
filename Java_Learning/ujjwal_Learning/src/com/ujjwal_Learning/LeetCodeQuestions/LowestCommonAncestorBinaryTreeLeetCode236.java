@@ -7,7 +7,7 @@ public class LowestCommonAncestorBinaryTreeLeetCode236 {
 
 	}
 	
-	// Added Daily Leetcode solution
+	// Added Leetcode daily solution
 	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         //base case
         if (root == null || root == p || root == q) {
