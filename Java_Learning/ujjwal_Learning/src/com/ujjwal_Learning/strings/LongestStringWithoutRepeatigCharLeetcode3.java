@@ -10,7 +10,7 @@ public class LongestStringWithoutRepeatigCharLeetcode3 {
 
 	}
 
-	// added lengthOfLongestSubstring method
+	// added method length of Longest substring method
 	public int lengthOfLongestSubstring(String s) {
 		int maxLen = 0;
 		Set<Character> window = new HashSet<>();
