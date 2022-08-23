@@ -7,6 +7,7 @@ public class PalinDromeLinkedListLeetCode234 {
 
 	}
 
+	// Added Leetcode daily solution
 	public boolean isPalindrome(ListNode head) {
 		ListNode fast = head, slow = head;
 		while (fast != null && fast.next != null) {
