@@ -30,6 +30,6 @@ public class FractionToRecurringDecimalLeetcode166 {
 		result.insert(index, "(");
 		result.append(")");
 		return result.toString().replace("(0)", "");
-	}s
+	}
 
 }
