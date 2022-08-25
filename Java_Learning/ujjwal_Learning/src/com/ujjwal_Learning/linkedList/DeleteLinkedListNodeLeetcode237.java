@@ -62,6 +62,7 @@ public class DeleteLinkedListNodeLeetcode237 {
 	// the
 	// current data and last make the tail as null and return
 
+	// Added Leetcode solution 
 	public static void deleteNode(Node node) {
 
 		if (node != null && node.next != null) {
