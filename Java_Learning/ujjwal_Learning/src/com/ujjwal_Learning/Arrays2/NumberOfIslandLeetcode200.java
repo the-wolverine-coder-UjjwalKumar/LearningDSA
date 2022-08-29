@@ -7,6 +7,7 @@ public class NumberOfIslandLeetcode200 {
 
 	}
 
+	// Added Leetcode daily solution
 	private int n;
 	private int m;
 
