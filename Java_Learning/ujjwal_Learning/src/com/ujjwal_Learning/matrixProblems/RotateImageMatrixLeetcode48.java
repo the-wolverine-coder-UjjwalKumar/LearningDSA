@@ -6,8 +6,7 @@ public class RotateImageMatrixLeetcode48 {
 		// TODO Auto-generated method stub
 
 	}
-
-	// Added Leetcode daily solution
+	// Added daily leetcode solution
 	public void rotate(int[][] matrix) {
 
 		// 1.Transpose
