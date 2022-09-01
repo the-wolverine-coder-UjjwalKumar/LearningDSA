@@ -20,6 +20,6 @@ public class SlowestKeyLeetcode1629 {
 			}
 		}
 		return bestChar;
-	}s
+	}
 
 }
