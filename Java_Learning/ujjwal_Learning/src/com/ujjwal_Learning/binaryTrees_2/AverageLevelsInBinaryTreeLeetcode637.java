@@ -12,6 +12,7 @@ public class AverageLevelsInBinaryTreeLeetcode637 {
 
 	}
 
+	// Added Leetcode daily solution
 	public List<Double> averageOfLevels(TreeNode root) {
 		List<Double> result = new ArrayList<>();
 		Queue<TreeNode> q = new LinkedList<>();
