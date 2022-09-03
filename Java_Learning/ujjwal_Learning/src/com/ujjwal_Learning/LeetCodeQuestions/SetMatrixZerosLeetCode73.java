@@ -15,7 +15,7 @@ public class SetMatrixZerosLeetCode73 {
 
 	}
 	
-	// Advanced approach
+	// Advanced approach Added Leetcode daily solution
 	private static void setZeros2(int[][] matrix) {
 		
 		int col0 = 1, rows = matrix.length, cols = matrix[0].length;
