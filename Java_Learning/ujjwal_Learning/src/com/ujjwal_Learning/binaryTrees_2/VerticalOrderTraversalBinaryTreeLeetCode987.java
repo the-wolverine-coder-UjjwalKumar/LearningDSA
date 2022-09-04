@@ -30,6 +30,7 @@ class Tuple {
 }
 class Solution {
 	
+	// Added Leetcode solution
 	public List<List<Integer>> verticalTraversal1(TreeNode root) {
         TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map = new TreeMap<>(); 
         Queue<Tuple> q = new LinkedList<Tuple>();
