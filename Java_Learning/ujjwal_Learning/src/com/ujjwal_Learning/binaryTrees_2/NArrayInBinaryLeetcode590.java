@@ -10,6 +10,7 @@ public class NArrayInBinaryLeetcode590 {
 
 	}
 
+	// Added Leetcode solution
 	public List<Integer> postorder(NarrayNode root) {
 		LinkedList<NarrayNode> stack = new LinkedList<>();
 		LinkedList<Integer> output_array = new LinkedList<>();
