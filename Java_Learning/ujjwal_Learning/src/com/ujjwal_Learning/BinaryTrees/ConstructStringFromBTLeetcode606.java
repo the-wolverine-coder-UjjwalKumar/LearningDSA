@@ -7,6 +7,7 @@ public class ConstructStringFromBTLeetcode606 {
 
 	}
 
+	// Added Leetcode daily solution
 	String str = "";
 
 	public String tree2str(TreeNode root) {
