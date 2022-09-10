@@ -11,6 +11,7 @@ public class N_QueensLeetCode51 {
 
 	}
 
+	// Daily Leetcode solution
 	// approach -1 here we are using loop to get the safe position
 	public List<List<String>> solveNQueens(int n) {
 		char[][] board = new char[n][n];
