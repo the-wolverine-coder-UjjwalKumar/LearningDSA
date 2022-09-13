@@ -7,6 +7,7 @@ public class UTF_8ValidationLeetcode393 {
 
 	}
 
+	// Added Leetcode daily solution
 	public boolean validUtf8(int[] arr) {
 		int rbytes = 0;
 		for (int val : arr) {
