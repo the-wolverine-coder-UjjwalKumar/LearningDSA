@@ -7,6 +7,7 @@ public class MaximumScoreFromPerformingMultiplyLeetcode1770 {
 
 	}
 
+	// Added Leetcode daily solution
 	public int maximumScore(int[] nums, int[] multipliers) {
 
 		int N = nums.length, M = multipliers.length;
