@@ -9,7 +9,7 @@ public class NextGreaterElementTwoLeetcode503 {
 
 	}
 
-	// Funtion to get array of next greater elements
+	// Added Leetcode solution 
 	public int[] nextGreaterElements(int[] nums) {
 		int n = nums.length;
 		int[] res = new int[n];
