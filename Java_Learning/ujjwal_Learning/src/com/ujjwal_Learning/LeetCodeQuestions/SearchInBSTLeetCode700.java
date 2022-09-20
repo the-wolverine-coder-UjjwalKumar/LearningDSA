@@ -7,13 +7,13 @@ public class SearchInBSTLeetCode700 {
 	 * Find the node in the BST that the node's value equals val and return the
 	 * subtree rooted with that node. If such a node does not exist, return null.
 	 */
-	
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 	}
 
-	//
+	// Added Leetcode daily solution
 	public TreeNode searchBST(TreeNode root, int val) {
 		while (root != null && root.val != val) {
 			root = val < root.val ? root.left : root.right;
