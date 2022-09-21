@@ -7,6 +7,7 @@ public class SumOfEvenNumberAfterQueriesLeetcode985 {
 
 	}
 
+	// Added Leetcode solution 
 	public int[] sumEvenAfterQueries(int[] A, int[][] queries) {
 		int sum = 0;
 		for (int n : A) {
