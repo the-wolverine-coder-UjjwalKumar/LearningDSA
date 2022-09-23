@@ -7,6 +7,7 @@ public class RottenOrangesLeetcode994 {
 
 	}
 
+	// Added leetcode daily solution
 	public int orangesRotting(int[][] grid) {
 		if (grid == null || grid.length == 0)
 			return -1;
