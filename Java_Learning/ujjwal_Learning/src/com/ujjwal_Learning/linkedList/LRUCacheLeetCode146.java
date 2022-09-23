@@ -10,6 +10,7 @@ public class LRUCacheLeetCode146 {
 
 	}
 
+	// Added Leetcode solution
 	class LRUCache {
 		Node head = new Node(0, 0), tail = new Node(0, 0);
 		Map<Integer, Node> map = new HashMap<>();
