@@ -10,6 +10,7 @@ public class PathSumTwoLeetCode113 {
 
 	}
 
+	// Added Leetcode daily solution
 	public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
 		List<List<Integer>> ans = new ArrayList<List<Integer>>();
 
