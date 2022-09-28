@@ -6,6 +6,7 @@ public class RemoveNthNodeFromEndLeetCode19 {
 		// TODO Auto-generated method stub
 
 	}
+	// Added Leetcode daily solution
 
 	// maintain front and back with a gap of n
 	public ListNode removeNthFromEnd(ListNode head, int n) {
