@@ -11,6 +11,7 @@ public class TopKFrequentElementsLeetcode347 {
 
 	}
 
+	// Added Leetcode solution
 	public int[] topKFrequent(int[] nums, int k) {
 		List<Integer>[] bucket = new List[nums.length + 1];
 		HashMap<Integer, Integer> hm = new HashMap<>();
