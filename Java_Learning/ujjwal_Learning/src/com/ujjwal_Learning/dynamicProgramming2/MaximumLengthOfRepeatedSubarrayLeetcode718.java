@@ -7,6 +7,7 @@ public class MaximumLengthOfRepeatedSubarrayLeetcode718 {
 
 	}
 
+	// Added Leetcode daily solution
 	public int findLength(int[] A, int[] B) {
         if(A == null||B == null) return 0;
         int m = A.length;
