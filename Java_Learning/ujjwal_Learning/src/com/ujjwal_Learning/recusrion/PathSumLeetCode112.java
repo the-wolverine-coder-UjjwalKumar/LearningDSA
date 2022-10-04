@@ -26,6 +26,7 @@ public class PathSumLeetCode112 {
 
 	}
 	
+	// Added Leetcode daily solution
 	public boolean hasPathSum(TreeNode root, int targetSum) {
         if(root==null) return false;
                 
