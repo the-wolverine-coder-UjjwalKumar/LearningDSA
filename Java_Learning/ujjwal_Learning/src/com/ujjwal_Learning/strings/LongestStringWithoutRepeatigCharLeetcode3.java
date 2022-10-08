@@ -9,7 +9,8 @@ public class LongestStringWithoutRepeatigCharLeetcode3 {
 		// TODO Auto-generated method stub
 
 	}
-
+	
+	// added daily leetcode solution
 	// added method length of Longest substring method
 	public int lengthOfLongestSubstring(String s) {
 		int maxLen = 0;
