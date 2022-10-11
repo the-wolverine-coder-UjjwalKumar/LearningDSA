@@ -7,6 +7,7 @@ public class IncreasingTripletSubsequenceLeetcode334 {
 
 	}
 
+	// Added Leetcode daily solution
 	public boolean increasingTriplet(int[] nums) {
 		int first = Integer.MAX_VALUE, sec = Integer.MAX_VALUE;
 		for (int j : nums)
