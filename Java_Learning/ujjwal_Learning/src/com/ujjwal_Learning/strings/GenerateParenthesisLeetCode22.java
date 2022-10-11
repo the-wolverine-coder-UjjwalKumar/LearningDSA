@@ -10,6 +10,7 @@ public class GenerateParenthesisLeetCode22 {
 
 	}
 
+	// Added Leetcode daily solution
 	public List<String> generateParenthesis(int n) {
 		List<String> result = new LinkedList<String>();
 		if (n > 0)
