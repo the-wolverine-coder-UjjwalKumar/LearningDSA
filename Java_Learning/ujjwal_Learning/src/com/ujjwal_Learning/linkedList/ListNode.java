@@ -9,7 +9,7 @@ public class ListNode implements Comparator<ListNode>{
 	ListNode() {
 	}
 
-	ListNode(int val) {
+	public ListNode(int val) {
 		this.val = val;
 	}
 
