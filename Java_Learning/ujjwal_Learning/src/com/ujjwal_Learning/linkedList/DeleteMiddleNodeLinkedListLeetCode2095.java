@@ -7,6 +7,7 @@ public class DeleteMiddleNodeLinkedListLeetCode2095 {
 
 	}
 
+	// delete middle node 
 	public ListNode deleteMiddle(ListNode head) {
 		if (head == null)
 			return head;
