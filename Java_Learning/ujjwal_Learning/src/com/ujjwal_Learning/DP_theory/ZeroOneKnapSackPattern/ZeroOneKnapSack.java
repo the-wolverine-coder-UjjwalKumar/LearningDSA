@@ -43,7 +43,8 @@ public class ZeroOneKnapSack {
 		}
 
 	}
-
+	
+	// Leetcode daily solution
 	// Memoization - storing the answers
 	public static int knapSackMemoization(int[] wt, int[] val, int W, int n) {
 
