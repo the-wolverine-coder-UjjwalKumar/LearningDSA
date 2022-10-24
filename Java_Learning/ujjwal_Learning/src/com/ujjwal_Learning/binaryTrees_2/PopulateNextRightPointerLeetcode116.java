@@ -31,6 +31,7 @@ public class PopulateNextRightPointerLeetcode116 {
 
 	}
 
+	// Leetcode daily solution
 	public Node connect(Node root) {
 		if (root == null) {
 			return null;
