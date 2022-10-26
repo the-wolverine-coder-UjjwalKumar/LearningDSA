@@ -10,6 +10,7 @@ public class ContinuousSubarraySumLeetcode523 {
 
 	}
 
+	// Leetcode daily solution
 	public boolean checkSubarraySum(int[] nums, int k) {
 		// maintain a hash map to store <sum % k, index>
 		Map<Integer, Integer> map = new HashMap<>();
