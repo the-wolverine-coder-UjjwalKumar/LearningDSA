@@ -7,6 +7,9 @@ public class ToeplitzMatrixLeetcode766 {
 
 	}
 
+	// added method to check toeplitz matrix
+	// A matrix is Toeplitz if every diagonal from top-left to bottom-right has the
+	// same elements.
 	public boolean isToeplitzMatrix(int[][] matrix) {
 		int m = matrix.length, n = matrix[0].length;
 		for (int i = 1; i < m; i++)
