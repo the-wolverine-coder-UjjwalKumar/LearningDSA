@@ -8,6 +8,7 @@ public class LongestIncreasingSubsequenceArrayLeetcode300 {
 	}
 
 	// Added Leetcode solution 
+	// Longest Increasing subsequence in array
 	public int lengthOfLIS(int[] nums) {
 		int[] tails = new int[nums.length];
 		int size = 0;
