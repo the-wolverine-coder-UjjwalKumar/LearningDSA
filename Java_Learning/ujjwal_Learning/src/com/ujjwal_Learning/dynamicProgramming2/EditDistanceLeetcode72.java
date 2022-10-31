@@ -1,6 +1,11 @@
 package com.ujjwal_Learning.dynamicProgramming2;
 
 public class EditDistanceLeetcode72 {
+
+	public static void main(String[] args) {
+
+	}
+
 	public int minDistance(String word1, String word2) {
 		if (word1 == null || word2 == null)
 			return -1;
