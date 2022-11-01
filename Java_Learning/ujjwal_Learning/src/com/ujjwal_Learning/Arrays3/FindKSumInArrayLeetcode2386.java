@@ -1,8 +1,10 @@
 package com.ujjwal_Learning.Arrays3;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.PriorityQueue;
+
+import com.ujjwal_Learning.LeetCodeQuestions.Pair;
 
 public class FindKSumInArrayLeetcode2386 {
 
@@ -12,26 +14,48 @@ public class FindKSumInArrayLeetcode2386 {
 	}
 
 	public long kSum(int[] nums, int k) {
-		long minus = 0, all = 0;
-		for (int i = 0; i < nums.length; i++) {
-			all += Math.max(nums[i], 0); // take all positive values
-			nums[i] = Math.abs(nums[i]); // make all non-negative
-		}
-		Arrays.sort(nums); // sort it
-		var minheap = new PriorityQueue<long[]>(Comparator.comparingLong(o -> o[0]));
-		minheap.offer(new long[] { nums[0], 0 });
-		while (--k > 0) { // construct the smallest subsequence value in a smart way
-			long[] top = minheap.poll();
-			int i = (int) top[1]++;
-			long val = top[0];
-			minus = val;
-			if (i < nums.length - 1) { // each item (node) branches out into 2 (children)
-				top[0] += nums[i + 1];
-				minheap.offer(new long[] { val - nums[i] + nums[i + 1], i + 1 });
-				minheap.offer(top);
-			}
-		}
-		return all - minus;
-	}
+        //1. the max value will be the sum of all the positives
+        //2. sums of every subsequence can be derived by removing positives from or adding negetives to the max value
+        //3. we can turn every negetive into its absolute value, 
+        //   so "max - abs(neg)" means we add negetives to the max-value subsequence.
+        //  "max - pos" means we remove positives from the max-value subsequence.
+        //4. we transform original question into "finding the (k-1)th smallest sum of subsequence"
+        //      eg: the 1th largest subsequnce will be "max - 0"
+        //          the 2th largest subsequnce will be "max - 1th smallest sum of subsequence"
+        //5. to get the kth smallest sum of subsequence in nlogn, 
+        //   we will try to iterate sum of subsequnce in increasing order,
+        //   then use a heap to store them
+        //6. for an increasing array [a, b, c], we can choose draw a tree to interate it
+        //          a
+        //        /    \
+        //     b         a+b
+        //    / \       /   \
+        //   c   b+c   a+c   a+b+c
+        //7. interate in this way and find the (k-1)th smallest sum of subsequnce using heap
+        //   answer will be max - (k-1)th smallest sum of subsequence
+        
+        
+        long max = 0;
+        for (int i = 0; i < nums.length; i ++) {
+            if (nums[i] > 0)
+                max += nums[i];
+            else
+                nums[i] = -nums[i];
+        }
+        Arrays.sort(nums);
+        PriorityQueue<long[]> que = new PriorityQueue<>((n1, n2) -> (Long.compare(n1[0], n2[0])));
+        que.offer(new long[]{nums[0], 0});
 
+        long kmin = 0;
+        for (int i = 1; i < k; i ++) {
+            long[] node = que.poll();
+            kmin = node[0];
+            if (node[1] == nums.length - 1)
+                continue;
+            que.offer(new long[] {kmin + nums[(int)node[1]+1], node[1]+1});
+            que.offer(new long[] {kmin - nums[(int)node[1]] + nums[(int)node[1]+1], node[1]+1});
+        }
+        
+        return max - kmin;
+    }
 }
