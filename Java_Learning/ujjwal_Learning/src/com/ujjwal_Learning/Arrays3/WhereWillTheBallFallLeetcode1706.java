@@ -10,6 +10,7 @@ public class WhereWillTheBallFallLeetcode1706 {
 	int m;
 	int n;
 
+	// Leetcode daily solution
 	public int[] findBall(int[][] grid) {
 		m = grid.length;
 		n = grid[0].length;
