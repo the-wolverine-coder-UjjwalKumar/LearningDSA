@@ -8,6 +8,7 @@ public class LongestPalindromeByConcatTwoWordLeetcode2131 {
 
 	}
 
+	// Added method to fetch longest palindrome
 	public int longestPalindrome(String[] words) {
 		HashMap<String, Integer> map = new HashMap<>();
 		int max = 0;
