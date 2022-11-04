@@ -19,6 +19,7 @@ public class ReverseVowelsOFStringLeetCode345 {
 	}
 	
 	// method -2
+	// Added Leetcode daily solution
 	public String reverseVowels2(String s) {
 	    if (s == null || s.length() == 0) return s;
 	        char[] chars = s.toCharArray();
