@@ -7,6 +7,7 @@ public class ConstructBSTFromPreOrderLeetCode1008 {
 
 	}
 
+	// Added method to generate BST from Pre-order
 	public TreeNode bstFromPreorder(int[] A) {
 		return bstFromPreorder(A, Integer.MAX_VALUE, new int[] { 0 });
 	}
