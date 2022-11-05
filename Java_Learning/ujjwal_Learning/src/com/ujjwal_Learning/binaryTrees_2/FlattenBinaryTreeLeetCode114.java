@@ -10,6 +10,7 @@ public class FlattenBinaryTreeLeetCode114 {
 
 	}
 
+	// Added Leetcode daily solution
 	// method -1
 	TreeNode prev = null;
 
