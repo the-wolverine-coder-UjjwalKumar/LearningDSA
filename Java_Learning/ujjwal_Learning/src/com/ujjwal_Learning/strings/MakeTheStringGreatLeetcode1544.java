@@ -7,6 +7,9 @@ public class MakeTheStringGreatLeetcode1544 {
 
 	}
 
+	// Added method to make string good i.e
+	// s[i] is a lower-case letter and s[i + 1] is the same letter but in upper-case
+	// or vice-versa.
 	public String makeGood(String s) {
 		int n = s.length();
 
