@@ -12,6 +12,7 @@ public class OnlineStockSpanLeetcode901 {
 	LinkedList<Integer> prices;
 	LinkedList<Integer> spans;
 
+	// method to fetch span
 	public OnlineStockSpanLeetcode901() {
         prices = new LinkedList<>();
         spans = new LinkedList<>();
