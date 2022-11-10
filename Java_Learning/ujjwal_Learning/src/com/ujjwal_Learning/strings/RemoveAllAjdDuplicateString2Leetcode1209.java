@@ -10,6 +10,7 @@ public class RemoveAllAjdDuplicateString2Leetcode1209 {
 
 	}
 
+	// method to remove adj duplicates from given string
 	public String removeDuplicates(String s, int k) {
 		Stack<Pair> stack = new Stack<>();
 		for (char c : s.toCharArray()) {
