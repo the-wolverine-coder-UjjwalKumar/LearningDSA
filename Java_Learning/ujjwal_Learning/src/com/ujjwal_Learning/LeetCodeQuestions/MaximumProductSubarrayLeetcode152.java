@@ -2,6 +2,7 @@ package com.ujjwal_Learning.LeetCodeQuestions;
 
 public class MaximumProductSubarrayLeetcode152 {
 
+	// Maximum Product Subarray
 	public int mySubarrayP(int[] nums) {
 		int n = nums.length;
 		int l = 1, r = 1;
