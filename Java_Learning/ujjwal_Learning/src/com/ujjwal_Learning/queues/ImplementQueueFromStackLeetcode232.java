@@ -6,10 +6,11 @@ public class ImplementQueueFromStackLeetcode232 {
 	Stack<Integer> input;
 	Stack<Integer> output;
 
+	// Implement queue using stack
 	public ImplementQueueFromStackLeetcode232() {
-      input = new Stack<>();
-      output = new Stack<>();
-   }
+		input = new Stack<>();
+		output = new Stack<>();
+	}
 
 	public void push(int x) {
 		// only push the new item when the order is maintained as precondition to push
