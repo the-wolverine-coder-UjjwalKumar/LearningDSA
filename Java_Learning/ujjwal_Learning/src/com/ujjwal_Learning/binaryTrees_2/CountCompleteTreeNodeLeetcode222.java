@@ -7,6 +7,7 @@ public class CountCompleteTreeNodeLeetcode222 {
 
 	}
 
+	// added method to count tree node
 	public int countNodes(TreeNode root) {
 		if (root == null)
 			return 0;
