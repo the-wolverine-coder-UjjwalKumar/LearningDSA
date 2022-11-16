@@ -8,6 +8,7 @@ public class GuessNumberHigherLowerLeetcode374 {
 		
 	}
 
+	// method to guess number
 	public int guessNumber(int n) {
 		int l = 1, r = n;
 		while (l <= r) {
