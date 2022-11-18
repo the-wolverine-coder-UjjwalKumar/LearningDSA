@@ -24,6 +24,7 @@ public class UglyNumberTwoLeetCode264 {
 	 * (2) 1×3, 2×3, 3×3, 4×3, 5×3, … 
 	 * (3) 1×5, 2×5, 3×5, 4×5, 5×5, …
 	 */
+	// Added method to fetch ugly number
 	public int nthUglyNumber(int n) {
 		int[] nums = new int[n];
 		int index2 = 0, index3 = 0, index5 = 0;
