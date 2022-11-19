@@ -7,6 +7,7 @@ public class FirstAndLastArrayElementLeetcode34 {
 
 	}
 
+	// getting first and last index of sorted array
 	public static int firstIndex(int[] arr, int data) {
 		int low = 0, high = arr.length - 1;
 		int fi = -1; // fi : first index
