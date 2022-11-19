@@ -13,6 +13,7 @@ public class ErectAndFenceLeetcode587 {
 
 	}
 
+	// Added method to find outer trees
 	public int[][] outerTrees(int[][] points) {
 		if (points == null || points.length == 0)
 			return new int[][] {};
