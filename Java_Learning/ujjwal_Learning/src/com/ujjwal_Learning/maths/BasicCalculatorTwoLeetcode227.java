@@ -7,6 +7,7 @@ public class BasicCalculatorTwoLeetcode227 {
 
 	}
 
+	// added method to caluclate given string expression
 	public int calculate(String s) {
 		if (s == null)
 			return 0;
