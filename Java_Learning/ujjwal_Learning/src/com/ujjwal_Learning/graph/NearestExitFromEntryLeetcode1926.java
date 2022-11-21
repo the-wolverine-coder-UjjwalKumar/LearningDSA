@@ -10,6 +10,7 @@ public class NearestExitFromEntryLeetcode1926 {
 
 	}
 
+	// added method to find nearest exit
 	public int nearestExit(char[][] maze, int[] entrance) {
 		Queue<int[]> q = new LinkedList<>();
 		int d[][] = { { 1, 0 }, { -1, 0 }, { 0, 1 }, { 0, -1 } };
