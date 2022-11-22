@@ -7,6 +7,7 @@ public class PerfectSquaresLeetCode79 {
 
 	}
 
+	// Added method to get squares
 	public int numSquares(int n) {
 		int memo[] = new int[n + 1];
 		return rec(n, memo);
