@@ -9,6 +9,7 @@ public class ValidSudukoLeetcode36 {
 
 	}
 
+	// method to check valid sudoku
 	public boolean isValidSudoku(char[][] board) {
 		for (int i = 0; i < 9; i++) {
 			HashSet<Character> rows = new HashSet<Character>();
