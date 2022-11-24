@@ -10,6 +10,7 @@ public class WordSearchLeetcode916 {
 
 	}
 
+	// method to search word
 	public List<String> wordSubsets(String[] A, String[] B) {
 		List<String> result = new ArrayList<>();
 		int[] target = new int[26];
