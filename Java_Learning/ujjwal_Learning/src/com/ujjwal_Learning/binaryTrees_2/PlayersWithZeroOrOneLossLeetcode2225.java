@@ -13,6 +13,7 @@ public class PlayersWithZeroOrOneLossLeetcode2225 {
 
 	}
 
+	// added method to find out the winners
 	public static List<List<Integer>> findWinners(int[][] matches) {
 		List<List<Integer>> list = new ArrayList<>();
 		List<Integer> list1 = new ArrayList<>();
