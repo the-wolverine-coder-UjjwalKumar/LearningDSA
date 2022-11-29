@@ -130,6 +130,7 @@ public class IntersectionOfTwoLinkedListLeetCode160 {
 	}
 
 	// Optimal -2 method
+	// added optimal-2 method to identify intersection bw two LL
 	public static ListNode getIntersectionNodeOptimal2(ListNode headA, ListNode headB) {
 
 		ListNode d1 = headA, d2 = headB;
