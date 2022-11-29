@@ -12,6 +12,7 @@ public class InsertDeleteGetRandomLeetcode380 {
 
 	}
 
+	// implemented a data structure, insert, delete, getRandom
 	HashMap<Integer, Integer> valToInd;
 	List<Integer> list;
 	int ind = 0;
