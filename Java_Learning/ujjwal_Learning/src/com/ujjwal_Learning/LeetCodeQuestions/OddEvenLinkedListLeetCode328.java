@@ -7,6 +7,7 @@ public class OddEvenLinkedListLeetCode328 {
 
 	}
 
+	// added method to check odd even list
 	public ListNode oddEvenList(ListNode head) {
 		if (head == null) {
 			return null;
