@@ -7,6 +7,8 @@ public class RangeSumBSTLeetcode938 {
 
 	}
 
+	
+	// added method to fetch inclusive range sum [L,R]
 	public int rangeSumBST(TreeNode root, int L, int R) {
 		if (root == null)
 			return 0;
