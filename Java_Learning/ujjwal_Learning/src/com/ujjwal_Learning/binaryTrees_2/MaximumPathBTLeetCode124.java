@@ -42,6 +42,7 @@ public class MaximumPathBTLeetCode124 {
         return maxValue[0];
     }
     
+	// max path sum in binary tree
     private int maxPathDown(TreeNode node, int maxValue[]) {
         if (node == null) return 0;
         int left = Math.max(0, maxPathDown(node.left, maxValue));
