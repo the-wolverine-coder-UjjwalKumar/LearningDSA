@@ -20,6 +20,7 @@ public class ValidPalindromeLeetCode125 {
 
 	}
 
+	// added method to check is input string is palindrome or not
 	public boolean isPalindrome(String s) {
 		if (s == null) {
 			return false;
