@@ -16,6 +16,7 @@ public class SimplifyPathLeetCode71 {
 
 	}
 
+	// added method to get simplified path
 	public String simplifyPath1(String path) {
 		Deque<String> stack = new LinkedList<>();
 		// Don't push the .. , . , ""
