@@ -49,6 +49,7 @@ public class MaximumFallingPathSumVariableStartEndPoint {
 	}
 
 	// Memoized Code
+	// added method to memoize code and get the max sum
 	static int getMaxUtil(int i, int j, int m, int[][] matrix, int[][] dp) {
 
 		// Base Conditions
