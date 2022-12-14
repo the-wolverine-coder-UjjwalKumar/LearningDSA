@@ -10,7 +10,7 @@ public class RightSideViewTraversalBinaryTreeLeetCode199 {
 
 	}
 
-	// revist the question
+	// added method to collect righmost node only to fetch right view
 	public List<Integer> rightSideView(TreeNode root) {
 		List<Integer> result = new ArrayList<Integer>();
 		rightView(root, result, 0);
