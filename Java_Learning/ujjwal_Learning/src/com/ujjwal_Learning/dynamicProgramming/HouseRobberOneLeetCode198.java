@@ -73,6 +73,7 @@ public class HouseRobberOneLeetCode198 {
 		return prev;
 	}
 
+	// added space optimized code 
 	public int robNew(int[] num) {
 		// {2,7,9,3,1} i - 0 to 4 and length = 5
 
