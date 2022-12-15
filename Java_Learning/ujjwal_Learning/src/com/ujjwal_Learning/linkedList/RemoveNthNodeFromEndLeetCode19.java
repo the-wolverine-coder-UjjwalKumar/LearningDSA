@@ -6,8 +6,8 @@ public class RemoveNthNodeFromEndLeetCode19 {
 		// TODO Auto-generated method stub
 
 	}
-	// Added Leetcode daily solution
-
+	
+	// added method to delete nth node from end using fast slow pointer concept
 	// maintain front and back with a gap of n
 	public ListNode removeNthFromEnd(ListNode head, int n) {
 		ListNode front = head, back = head;
