@@ -7,6 +7,7 @@ public class ImplementQueueFromStackLeetcode232 {
 	Stack<Integer> output;
 
 	// Implement queue using stack
+	// Added method to make queue using stack
 	public ImplementQueueFromStackLeetcode232() {
 		input = new Stack<>();
 		output = new Stack<>();
