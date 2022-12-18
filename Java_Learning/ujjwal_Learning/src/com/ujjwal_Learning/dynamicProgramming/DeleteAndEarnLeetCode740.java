@@ -7,6 +7,7 @@ public class DeleteAndEarnLeetCode740 {
 
 	}
 
+	// added method to delete and earn 
 	public int deleteAndEarn(int[] nums) {
 		int n = 10001;
 		int[] values = new int[n];
