@@ -9,6 +9,7 @@ public class DailyTemperatureLeetcode739 {
 
 	}
 
+	// added method to get daily temp
 	public int[] dailyTemperatures(int[] temperatures) {
 		final int m = temperatures.length;
 		final int[] ans = new int[m];
