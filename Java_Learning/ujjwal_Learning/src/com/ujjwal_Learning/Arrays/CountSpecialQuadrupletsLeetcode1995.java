@@ -7,6 +7,7 @@ public class CountSpecialQuadrupletsLeetcode1995 {
 
 	}
 
+	// added brute force 
 	public int countQuadrupletsBruteForce(int[] nums) {
 		int count = 0, n = nums.length;
 		for (int i = 0; i < n - 3; i++) {
@@ -23,6 +24,7 @@ public class CountSpecialQuadrupletsLeetcode1995 {
 		return count;
 	}
 
+	// added optimized code
 	public int countQuadruplets(int[] nums) {
 		int ans = 0;
 		int n = nums.length;
