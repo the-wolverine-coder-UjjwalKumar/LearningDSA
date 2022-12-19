@@ -14,6 +14,7 @@ public class FindIfPathExistsLeetcode1971 {
 
 	boolean found = false;
 
+	// added method to check a valid path or not
 	public boolean validPath(int n, int[][] edges, int start, int end) {
 		if (start == end)
 			return true;
