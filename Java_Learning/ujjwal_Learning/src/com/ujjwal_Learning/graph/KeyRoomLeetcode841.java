@@ -9,6 +9,7 @@ public class KeyRoomLeetcode841 {
 
 	}
 
+	// Added dfs method to check all rooms can visit or not
 	public boolean canVisitAllRooms(List<List<Integer>> rooms) {
 		boolean visited[] = new boolean[rooms.size()];
 		dfs(rooms.get(0), 0, rooms, visited);
