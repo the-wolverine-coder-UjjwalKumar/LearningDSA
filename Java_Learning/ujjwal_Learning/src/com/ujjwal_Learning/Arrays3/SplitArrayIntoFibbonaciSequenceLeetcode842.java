@@ -10,6 +10,7 @@ public class SplitArrayIntoFibbonaciSequenceLeetcode842 {
 
 	}
 
+	// added method to split the array into fibbonaci sequence
 	public List<Integer> splitIntoFibonacci(String S) {
 		List<Integer> result = new ArrayList<>();
 		splitIntoFibonacciFrom(0, result, S); // start state
