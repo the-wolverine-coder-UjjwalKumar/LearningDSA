@@ -13,6 +13,7 @@ public class PossibleBipartitonLeetcode886 {
 
 	}
 
+	// added method to check bipartite
 	public boolean possibleBipartition(int n, int[][] d) {
 		List<Integer>[] nm = new List[n + 1];
 		for (int i = 0; i <= n; i++) {
