@@ -7,6 +7,7 @@ public class ImageOverLapLeetcode835 {
 
 	}
 
+	// added method to check largest overlap
 	public int largestOverlap(int[][] A, int[][] B) {
 		int ans = 0;
 		for (int row = -A.length; row < A.length; row++) {
