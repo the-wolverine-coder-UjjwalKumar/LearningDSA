@@ -7,6 +7,7 @@ public class DominoTominoTillingLeetcode790 {
 
 	}
 
+	// added dp solution
 	public int numTilings(int n) {
 		int dp[] = new int[n + 4];
 
