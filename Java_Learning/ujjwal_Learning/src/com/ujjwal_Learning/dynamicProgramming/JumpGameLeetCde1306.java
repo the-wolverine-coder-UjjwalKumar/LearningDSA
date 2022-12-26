@@ -11,6 +11,7 @@ public class JumpGameLeetCde1306 {
 
 	}
 	
+	// added dp solution for jump game
 	public boolean canReach(int[] arr, int start) {
         int n = arr.length;
         HashSet<Integer> visited = new HashSet<>(); // visited set
