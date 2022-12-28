@@ -38,7 +38,7 @@ public class MinimumLinesToRepresentLineChartLeetcode2280 {
 		return minLineCount;
 	}
 
-	public int minimumLines(int[][] stockPrices) {
+	public static int minimumLines(int[][] stockPrices) {
 		if (stockPrices.length == 1)
 			return 0;
 		// Sort by occurence of each day and then check the slope
