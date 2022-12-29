@@ -13,6 +13,7 @@ public class ThreeSumLeetcode15 {
 
 	}
 
+	// added method three sum
 	public List<List<Integer>> threeSum(int[] nums) {
 		Set<List<Integer>> set = new HashSet<>();
 		if (nums.length == 0)
