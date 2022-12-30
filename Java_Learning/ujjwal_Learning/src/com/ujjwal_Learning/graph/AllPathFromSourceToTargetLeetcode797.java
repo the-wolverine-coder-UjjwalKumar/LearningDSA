@@ -10,6 +10,7 @@ public class AllPathFromSourceToTargetLeetcode797 {
 
 	}
 
+	// added method to fetch all path from source to target
 	public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
 		if (graph == null || graph.length == 0) {
 			return null;
