@@ -7,6 +7,7 @@ public class UniquePathsWithRandomStartEndLeetCode980 {
 
 	}
 
+	// added method to fetch unique path from random start point
 	public int uniquePathsIII(int[][] grid) {
 		int zero = 0; // Count the 0's
 		int sx = 0; // starting x index
