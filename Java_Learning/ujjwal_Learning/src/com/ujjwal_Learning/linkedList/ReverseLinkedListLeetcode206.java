@@ -7,7 +7,7 @@ public class ReverseLinkedListLeetcode206 {
 
 	}
 
-	// Added Leetcode daily solution
+	// added method to reverse the given linked list
 	public ListNode reverseListR(ListNode head) {
 		ListNode prev = null;
 
