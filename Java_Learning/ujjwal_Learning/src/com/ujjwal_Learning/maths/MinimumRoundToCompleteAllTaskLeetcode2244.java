@@ -9,6 +9,7 @@ public class MinimumRoundToCompleteAllTaskLeetcode2244 {
 
 	}
 
+	// added method to fetch min rounds 
 	public int minimumRounds(int[] A) {
 		HashMap<Integer, Integer> count = new HashMap<>();
 		for (int a : A)
