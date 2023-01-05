@@ -18,6 +18,7 @@ public class MergeTwoSortedLinkedListLeetCode21 {
 	}
 	
 	// approach -1
+	// added method to merge 2 sorted list
 	public static ListNode getMergedList(ListNode h1, ListNode h2) {
 		
 		if(h1==null) return h2;
