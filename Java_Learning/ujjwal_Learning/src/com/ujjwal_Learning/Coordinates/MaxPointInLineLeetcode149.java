@@ -10,6 +10,7 @@ public class MaxPointInLineLeetcode149 {
 
 	}
 
+	// added method to fetch the max points lies on a line
 	public int maxPoints(int[][] points) {
 		int n = points.length;
 		int out = 0;
