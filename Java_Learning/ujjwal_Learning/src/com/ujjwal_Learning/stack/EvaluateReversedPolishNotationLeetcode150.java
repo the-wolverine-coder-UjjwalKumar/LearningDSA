@@ -8,7 +8,8 @@ public class EvaluateReversedPolishNotationLeetcode150 {
 		// TODO Auto-generated method stub
 
 	}
-
+	
+	// added method to evaluate reverse polish notation using stack
 	public int evalRPN(String[] tokens) {
 		if (tokens.length == 0) {
 			throw new Error("Invalid input 'tokens'; length must be at least 1");
