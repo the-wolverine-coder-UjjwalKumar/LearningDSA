@@ -9,7 +9,8 @@ public class BinaryTreePostOrderTraversalLeetcode145 {
 		// TODO Auto-generated method stub
 
 	}
-
+	
+	// added method to fetch PostOrder Traversal Left Right Root
 	private void helper(TreeNode root, List<Integer> post) {
 		if (root == null)
 			return;
