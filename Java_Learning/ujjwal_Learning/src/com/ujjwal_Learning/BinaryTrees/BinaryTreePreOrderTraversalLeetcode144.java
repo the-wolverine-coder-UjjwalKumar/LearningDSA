@@ -16,6 +16,7 @@ public class BinaryTreePreOrderTraversalLeetcode144 {
 		return preorder;
 	}
 
+	// added PreOrder Traversal Root Left Right 
 	public void getPreOrder(TreeNode root, List<Integer> preorder) {
 		if (root == null)
 			return;
