@@ -12,7 +12,7 @@ public class BinaryTreeLevelOrderTraversalLeetcode102 {
 
 	}
 
-	// leetcode daily question
+	// added method to retrive level order 
 	public List<List<Integer>> levelOrder(TreeNode root) {
 		List<List<Integer>> l = new ArrayList<>();
 		if (root != null) {
