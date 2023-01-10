@@ -7,6 +7,7 @@ public class SymmetricTreeLeetcode101 {
 
 	}
 
+	// added method to check symmetricity
 	public boolean isSymmetric(TreeNode root) {
 		return root == null || isSymmetricHelp(root.left, root.right);
 	}
