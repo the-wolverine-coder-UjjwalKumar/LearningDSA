@@ -1,11 +1,11 @@
 package com.ujjwal_Learning.binaryTrees_2;
 
+import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
+import java.util.Queue;
 
 public class NumberOfNodesInSubTreeWithSameLabelleetcode1519 {
 
@@ -13,42 +13,65 @@ public class NumberOfNodesInSubTreeWithSameLabelleetcode1519 {
 		// TODO Auto-generated method stub
 
 	}
-
-	public int minTime(int n, int[][] edges, List<Boolean> hasApple) {
-
-		Map<Integer, List<Integer>> map = new HashMap<>();
-		buildTree(edges, map);
-		Set<Integer> visited = new HashSet<>();
-		return helper(0, map, hasApple, visited);
-	}
-
-	private int helper(int node, Map<Integer, List<Integer>> map, List<Boolean> hasApple, Set<Integer> visited) {
-
-		visited.add(node);
-
-		int res = 0;
-
-		for (int child : map.getOrDefault(node, new LinkedList<>())) {
-			if (visited.contains(child))
-				continue;
-			res += helper(child, map, hasApple, visited);
-		}
-
-		if ((res > 0 || hasApple.get(node)) && node != 0)
-			res += 2;
-
-		return res;
-	}
-
-	private void buildTree(int[][] edges, Map<Integer, List<Integer>> map) {
-
-		for (int[] edge : edges) {
-			int a = edge[0], b = edge[1];
-			map.putIfAbsent(a, new LinkedList<>());
-			map.putIfAbsent(b, new LinkedList<>());
-			map.get(a).add(b);
-		}
-
-	}
+	int[] res;
+    public int[] countSubTrees(int n, int[][] es, String l) {
+        Node root = build(n, es, l);
+        res = new int[n];
+        dfs(root);
+        return res;
+    }
+    
+    private Map<Character, Integer> dfs(Node node) {
+        Map<Character, Integer> map = new HashMap<>();
+        if (node == null) return map;
+        map.put(node.c, 1);
+        for (Node child : node.cs) {
+            Map<Character, Integer> cmap = dfs(child);
+            for (char c : cmap.keySet()) {
+                map.put(c, map.getOrDefault(c, 0) + cmap.get(c));
+            }
+        }
+        res[node.key] = map.get(node.c);
+        return map;
+    }
+    
+    private Node build(int n, int[][] es, String l) {
+        Map<Integer, List<Integer>> g = new HashMap<>();
+        for (int[] e : es) {
+            g.computeIfAbsent(e[0], k -> new ArrayList<>());
+            g.computeIfAbsent(e[1], k -> new ArrayList<>());
+            g.get(e[1]).add(e[0]);
+            g.get(e[0]).add(e[1]);
+        }
+        Node root = new Node(0);
+        root.c = l.charAt(0);
+        Queue<Node> q = new LinkedList<>();
+        q.offer(root);
+        while (!q.isEmpty()) {
+            Node curr = q.poll();
+            for (int neig : g.getOrDefault(curr.key, new ArrayList<>())) {
+                if (curr.p == null || neig != curr.p.key) {
+                    Node next = new Node(neig);
+                    next.c = l.charAt(neig);
+                    next.p = curr;
+                    curr.cs.add(next);
+                    q.offer(next);
+                }
+            }
+        }
+        return root;
+    }
+	
+	class Node{
+        char c;
+        int key;
+        List<Node> cs;
+        Node p;
+        public Node(int key){
+            this.key = key;
+            cs = new ArrayList<>();
+            this.p = null;
+        };
+    }
 
 }
