@@ -12,7 +12,7 @@ public class SumOfNodeWithEvenValuedgrandParentleetcode1315 {
 
 	public int sumEvenGrandparent(TreeNode root) {
 		int sum = 0;
-		Queue<TreeNode> q = new LinkedList();
+		Queue<TreeNode> q = new LinkedList<>();
 		q.add(root);
 
 		// LevelOrderTraversal
