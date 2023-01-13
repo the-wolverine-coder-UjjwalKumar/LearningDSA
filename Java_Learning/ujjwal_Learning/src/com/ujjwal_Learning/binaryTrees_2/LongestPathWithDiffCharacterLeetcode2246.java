@@ -13,12 +13,13 @@ public class LongestPathWithDiffCharacterLeetcode2246 {
 
 	int result = 0;
 
+	// added method to get longest path 
 	public int longestPath(int[] parent, String s) {
 		int n = parent.length;
 		List<Integer>[] graph = new LinkedList[n];
 
 		for (int i = 0; i < n; i++)
-			graph[i] = new LinkedList();
+			graph[i] = new LinkedList<>();
 
 		for (int i = 1; i < n; i++)
 			graph[parent[i]].add(i);
