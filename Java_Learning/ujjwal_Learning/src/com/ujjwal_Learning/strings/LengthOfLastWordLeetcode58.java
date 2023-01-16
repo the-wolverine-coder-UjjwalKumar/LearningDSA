@@ -7,7 +7,8 @@ public class LengthOfLastWordLeetcode58 {
 
 	}
 
-	// added method to fetch length of last word
+
+	// added method to fetch length of last word split by spaces 
 	public int lengthOfLastWord(String s) {
 		int length = 0;
 
