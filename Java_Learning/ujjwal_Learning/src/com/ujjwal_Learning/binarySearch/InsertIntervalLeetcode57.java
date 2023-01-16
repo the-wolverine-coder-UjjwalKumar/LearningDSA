@@ -6,7 +6,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class InsertIntervalLeetcode57 {
-
+	
+	// added interval merge method
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[][] intervals = { { 1, 2 }, { 3, 5 }, { 6, 7 }, { 8, 10 }, { 12, 16 } };
