@@ -7,6 +7,7 @@ public class FlipStringToMonotoneIncreasingLeetcode926 {
 
 	}
 
+	// added method to flip string to make monotonic inc
 	public int minFlipsMonoIncr(String S) {
 		if (S == null || S.length() <= 0)
 			return 0;
