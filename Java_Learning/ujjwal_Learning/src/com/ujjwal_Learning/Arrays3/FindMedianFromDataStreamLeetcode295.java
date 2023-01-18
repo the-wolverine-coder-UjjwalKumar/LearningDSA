@@ -9,7 +9,8 @@ public class FindMedianFromDataStreamLeetcode295 {
 		// TODO Auto-generated method stub
 
 	}
-
+	
+	// implemented data stream meadian finder
 	PriorityQueue<Integer> smallNums; // Max Heap
 	PriorityQueue<Integer> largeNums; // Min Heap
 
