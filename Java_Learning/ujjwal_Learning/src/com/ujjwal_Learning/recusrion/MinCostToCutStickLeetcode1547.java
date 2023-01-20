@@ -11,6 +11,7 @@ public class MinCostToCutStickLeetcode1547 {
 
 	}
 
+	// added DP solution 
 	public int minCost(int n, int[] cuts) {
 		List<Integer> A = new ArrayList<>();
 		for (int a : cuts) {
