@@ -12,6 +12,7 @@ public class KthLargestInStreamLeetcode703 {
 	PriorityQueue<Integer> minHeap;
     int k;
     
+    // added implementation method for Kth Largest data in stream
     public KthLargestInStreamLeetcode703(int k, int[] nums) {
         this.k = k;
         minHeap = new PriorityQueue<Integer>((a, b) -> (a - b));
