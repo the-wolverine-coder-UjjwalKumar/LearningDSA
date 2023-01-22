@@ -7,6 +7,7 @@ public class PalindromePartitionLeetCode1745 {
 
 	}
 
+	// added DP solution for palindrome partitioning
 	public boolean checkPartitioning(String s) {
 		int N = s.length();
 		char[] A = s.toCharArray();
