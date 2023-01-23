@@ -7,6 +7,7 @@ public class MaximumBinaryTree2Leetcode998 {
 
 	}
 
+	// added method to get max binary tree
 	public TreeNode insertIntoMaxTree(TreeNode root, int val) {
 		if (root == null)
 			return null;
