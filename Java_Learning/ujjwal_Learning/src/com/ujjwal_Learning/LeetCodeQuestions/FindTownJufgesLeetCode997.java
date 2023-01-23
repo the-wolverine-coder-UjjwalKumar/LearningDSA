@@ -31,6 +31,7 @@ public class FindTownJufgesLeetCode997 {
 	}
 
 	// method-1
+	// added brute force method
 	public static int findJudge(int N, int[][] trust) {
 		int[] Trusted = new int[N + 1];
 		for (int[] person : trust) {
