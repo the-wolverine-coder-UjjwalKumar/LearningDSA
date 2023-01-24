@@ -12,6 +12,7 @@ public class SnakeLadderLeetcode909 {
 
 	}
 
+	// added snake ladder solution
 	public int snakesAndLadders(int[][] board) {
 		if (board == null || board.length == 0 || board[0].length == 0) {
 			return -1;
