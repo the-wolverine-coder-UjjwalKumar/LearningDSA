@@ -7,6 +7,7 @@ public class RomanToIntegerLeetcode13 {
 
 	}
 	
+	// added method to get integer value from roman string
 	public int romanToInt(String s) {
         int nums[]=new int[s.length()];
         for(int i=0;i<s.length();i++){
