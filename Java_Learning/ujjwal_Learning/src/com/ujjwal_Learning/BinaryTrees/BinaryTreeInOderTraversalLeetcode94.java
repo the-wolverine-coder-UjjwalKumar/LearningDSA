@@ -11,6 +11,7 @@ public class BinaryTreeInOderTraversalLeetcode94 {
 
 	}
 
+	// added inorder traversal 
 	public List<Integer> inorderTraversal(TreeNode root) {
 		List<Integer> inorder = new ArrayList<Integer>();
 
