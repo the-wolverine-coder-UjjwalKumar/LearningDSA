@@ -3,6 +3,12 @@ package com.ujjwal_Learning.BST;
 import java.util.Stack;
 
 public class KthSmallestInBSTLeetcode230 {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	// added method to fetch kth smallest in BST
 	public int kthSmallest(TreeNode root, int k) {
 		Stack<TreeNode> stack = new Stack<TreeNode>();
 		TreeNode node = root;
