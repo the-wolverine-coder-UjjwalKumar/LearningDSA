@@ -7,6 +7,7 @@ public class PowerOfTwoLeetcode342 {
 
 	}
 
+	// added power of 2, 4 method
 	public boolean isPowerOfFour(int num) {
 		int count = 0;
 		for (int i = 0; i < 32; i++) {
