@@ -1,6 +1,8 @@
 package com.ujjwal_Learning.stack;
 
 class MinimumStackNodeLeetcode155 {
+	
+	// implemented min stack
 	private Node head;
         
     public void push(int x) {
