@@ -16,7 +16,7 @@ public class CheapestFlightWithinKStepsLeetcode787 {
 		}
 		// fly from src to scr cost 0
 		for (int i = 0; i <= k + 1; i++) {
-			dp[i][src] = 0;
+			dp[i][src] = 0;w
 		}
 
 		for (int i = 1; i <= k + 1; i++) {
