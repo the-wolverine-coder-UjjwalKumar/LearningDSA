@@ -7,11 +7,12 @@ public class MergeIntervalLeetcode56 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		int[][] ans = merge(new int[][] {{1,1},{2,2},{3,3}});
+		System.out.println(ans.toString());
 	}
 
 	// added method for merge interval
-	public int[][] merge(int[][] intervals) {
+	public static int[][] merge(int[][] intervals) {
 
 		if (intervals == null || intervals.length == 0)
 			return intervals;
