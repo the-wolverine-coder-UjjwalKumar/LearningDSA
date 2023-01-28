@@ -7,6 +7,7 @@ public class NextGreaterELementThreeLeetcode556 {
 
 	}
 
+	// added next greater element, using string format
 	public int nextGreaterElement(int n) {
 
 		int index1 = -1;
