@@ -10,6 +10,7 @@ public class LFUCacheLeetCode460 {
 
 	}
 
+	// added LFU cache implementation
 	class LFUCache {
 
 		final int capacity;
