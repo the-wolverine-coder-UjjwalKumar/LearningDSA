@@ -7,6 +7,7 @@ public class HammingDistanceLeetCode461 {
 
 	}
 	
+	// added hamming distance method
 	public int hammingDistance(int x, int y) {
 	    int res = 0;
 	    int m = x^y;                  // take the xor of two numbers which contain on bit at change bit position of x and y
