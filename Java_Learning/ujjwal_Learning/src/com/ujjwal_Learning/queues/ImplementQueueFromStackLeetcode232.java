@@ -6,6 +6,7 @@ public class ImplementQueueFromStackLeetcode232 {
 	Stack<Integer> input;
 	Stack<Integer> output;
 
+	// aaded leetcode daily solution
 	// Implement queue using stack
 	// Added method to make queue using stack
 	public ImplementQueueFromStackLeetcode232() {
