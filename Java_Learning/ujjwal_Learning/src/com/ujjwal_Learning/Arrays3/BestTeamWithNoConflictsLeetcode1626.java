@@ -12,6 +12,7 @@ public class BestTeamWithNoConflictsLeetcode1626 {
 
 	}
 
+	// added best team without conflicts
 	class pair {
 		int age;
 		int score;
