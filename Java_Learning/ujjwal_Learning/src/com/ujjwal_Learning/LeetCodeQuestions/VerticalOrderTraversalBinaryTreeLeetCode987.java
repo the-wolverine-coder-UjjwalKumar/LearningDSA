@@ -18,6 +18,8 @@ public class VerticalOrderTraversalBinaryTreeLeetCode987 {
 }
 
 
+
+// added vertical order view 
 class Tuple {
     TreeNode node; 
     int row;
