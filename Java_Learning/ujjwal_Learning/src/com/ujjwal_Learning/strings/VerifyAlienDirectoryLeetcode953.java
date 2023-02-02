@@ -7,6 +7,7 @@ public class VerifyAlienDirectoryLeetcode953 {
 
 	}
 
+	// alien dictionaly with custom letter alphabet sequence :)
 	public boolean isAlienSorted(String[] words, String order) {
 		int[] charOrder = new int[26];
 
