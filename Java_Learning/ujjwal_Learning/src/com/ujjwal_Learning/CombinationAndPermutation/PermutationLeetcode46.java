@@ -10,6 +10,7 @@ public class PermutationLeetcode46 {
 
 	}
 
+	// added method to permute list
 	public List<List<Integer>> permute1(int[] nums) {
 		List<List<Integer>> list = new ArrayList<>();
 		// Arrays.sort(nums); not necessary
