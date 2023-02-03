@@ -7,6 +7,7 @@ public class ZigZagConversionLeetcode6 {
 
 	}
 
+	// added zig zag convert method
 	public String convert(String s, int nRows) {
 		char[] c = s.toCharArray();
 		int len = c.length;
