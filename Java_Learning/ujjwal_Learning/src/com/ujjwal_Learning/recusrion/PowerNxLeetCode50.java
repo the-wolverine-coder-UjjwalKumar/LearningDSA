@@ -7,7 +7,7 @@ public class PowerNxLeetCode50 {
 
 	}
 
-	// Added Leetcode daily solution
+	// added myPow function 
 	public double myPow(double x, int n) {
         if(n>=0)
             return positive(x,n);
