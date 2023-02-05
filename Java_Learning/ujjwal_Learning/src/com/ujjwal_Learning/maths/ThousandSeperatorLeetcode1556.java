@@ -3,8 +3,8 @@ package com.ujjwal_Learning.maths;
 public class ThousandSeperatorLeetcode1556 {
 
 	public static void main(String[] args) {
-		int n = 1234;
-		System.out.println(thousandSeparator(n));
+		int n = 123456789;
+		System.out.println(thousandSeparator2(n));
 	}
 
 	public static String thousandSeparator1(int n) {
@@ -30,5 +30,23 @@ public class ThousandSeperatorLeetcode1556 {
 		}
 		return sb.toString();
 	}
+	
+	public static String thousandSeparator2(int n) {
+		String num = Integer.toString(n);
+		StringBuilder sb = new StringBuilder();
+		
+		if(n < 1000) return num.toString();
+		
+		for(int i = num.length(); i>0; i -= 3) {
+			if(sb.length() > 0) sb.insert(0, ".");
+			
+			sb.insert(0, num.substring(Math.max(0, i - 3), i));
+		}
+		
+		return sb.toString();
+	
+	}
+	
+	
 
 }
