@@ -9,6 +9,7 @@ public class TwoSumIVInputBSTLeetcode653 {
 
 	}
 
+	// added two sum impl for BST
 	public boolean findTarget(TreeNode root, int k) {
 		if (root == null)
 			return false;
