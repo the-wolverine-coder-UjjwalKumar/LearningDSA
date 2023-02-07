@@ -10,6 +10,7 @@ public class FruitIntoBasketLeetcode904 {
 
 	}
 
+	// added method to fetch total fruits can be put in 2 basket
 	public int totalFruit(int[] tree) {
 		int start = 0;
 		int n = tree.length;
