@@ -7,6 +7,7 @@ public class SortArrayByParityLeetcode905 {
 
 	}
 
+	// sort array by parity
 	public int[] sortArrayByParity(int[] A) {
 		int n = A.length;
 		int start = 0;
