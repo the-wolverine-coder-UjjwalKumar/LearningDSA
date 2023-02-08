@@ -7,6 +7,7 @@ public class JumpGameTwoLeetCode45 {
 
 	}
 
+	// added method to return value of max reach
 	public int jump(int[] A) {
 		int jumps = 0, currentReach = 0, maxReach = 0;
 		for (int i = 0; i < A.length - 1; i++) {
