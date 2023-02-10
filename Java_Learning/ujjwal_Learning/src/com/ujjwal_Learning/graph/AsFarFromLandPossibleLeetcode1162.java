@@ -10,6 +10,7 @@ public class AsFarFromLandPossibleLeetcode1162 {
 
 	}
 
+	// added method to get possible land value as far as possible
 	public int maxDistance(int[][] grid) {
 
 		int n = grid.length;
