@@ -7,6 +7,7 @@ public class MaximumValueAtGivenIndexLeetcode1802 {
 
 	}
 
+	// added method to get max value
 	boolean isPossible(int n, int index, int maxSum, int value) {
 		int leftValue = Math.max(value - index, 0);
 		int rightValue = Math.max(value - ((n - 1) - index), 0);
