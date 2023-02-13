@@ -13,6 +13,7 @@ public class CountOddNumInRangeLeetcode1523 {
 	//Simply return the answer as (high - low)/2 + 1;. As, now we count the low and high inclusive.
 	
 	//For instance, low = 4, high = 8 is same as low = 5 and high = 7 as the odds are only [5,7].
+	// leetcode daily solution
 	public int countOdds(int low, int high) {
 		if (low % 2 == 0)
 			low += 1;
