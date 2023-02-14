@@ -7,6 +7,7 @@ public class AddBinaryStringLeetcode67 {
 
 	}
 
+	// added leetcode method to add binary strings
 	public String addBinary(String a, String b) {
 		StringBuilder res = new StringBuilder();
 		int i = a.length() - 1;
