@@ -7,6 +7,7 @@ public class SatisfiabilityOfEqualityEquationLeetcode990 {
 
 	}
 
+	// added leetcode solution
 	private int[] groups = new int[26];
 
 	public boolean equationsPossible(String[] equations) {
