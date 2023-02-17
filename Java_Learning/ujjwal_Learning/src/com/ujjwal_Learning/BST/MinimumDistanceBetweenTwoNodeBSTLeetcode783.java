@@ -10,6 +10,7 @@ public class MinimumDistanceBetweenTwoNodeBSTLeetcode783 {
 	private int min_abs = Integer.MAX_VALUE;
 	private TreeNode prev = null;
 
+	// added leetcode daily solution
 	private void inorder(TreeNode root) {
 		if (root == null)
 			return;
