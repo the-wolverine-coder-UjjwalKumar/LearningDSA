@@ -1,3 +1,4 @@
+
 package com.ujjwal_Learning.binaryTrees_2;
 
 public class InvertedTreeLeetcode226 {
@@ -7,6 +8,7 @@ public class InvertedTreeLeetcode226 {
 
 	}
 
+	// added recursive code to invert binary tree
 	public TreeNode invertTree(TreeNode root) {
 		if (root == null)
 			return null;
