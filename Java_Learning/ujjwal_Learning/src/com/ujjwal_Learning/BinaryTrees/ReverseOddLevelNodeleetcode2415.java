@@ -36,7 +36,7 @@ public class ReverseOddLevelNodeleetcode2415 {
 			}
 			level++;
 			if (level % 2 != 0) {
-				// means odd leve
+				// means odd level
 				swap(queue);
 			}
 
