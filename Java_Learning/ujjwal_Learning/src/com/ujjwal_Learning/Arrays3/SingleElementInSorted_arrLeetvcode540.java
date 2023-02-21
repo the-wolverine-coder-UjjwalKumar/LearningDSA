@@ -7,6 +7,7 @@ public class SingleElementInSorted_arrLeetvcode540 {
 
 	}
 	
+	// added leetcode daily solution
 	public int singleNonDuplicate(int[] nums) {
         int l=0, r=nums.length-1, mid;
         
