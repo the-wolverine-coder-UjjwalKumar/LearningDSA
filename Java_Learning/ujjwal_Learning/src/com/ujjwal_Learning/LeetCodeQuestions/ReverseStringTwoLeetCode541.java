@@ -7,6 +7,7 @@ public class ReverseStringTwoLeetCode541 {
 
 	}
 
+	// added method to reverse string 
 	public String reverseStr(String s, int k) {
         char[] arr = s.toCharArray();
         int n = arr.length;
