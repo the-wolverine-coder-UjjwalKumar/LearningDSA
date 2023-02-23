@@ -9,6 +9,7 @@ public class NextGreaterElementTwoLeetcode503 {
 
 	}
 
+	// added leetcode daily solution
 	// added method to get next grater element  
 	public int[] nextGreaterElements(int[] nums) {
 		int n = nums.length;
