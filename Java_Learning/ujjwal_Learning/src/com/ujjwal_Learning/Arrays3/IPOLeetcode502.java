@@ -9,6 +9,7 @@ public class IPOLeetcode502 {
 
 	}
 
+	// added leetcode solution 
 	public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
 		int n = profits.length;
 		PriorityQueue<Integer> minCapitalHeap = new PriorityQueue<Integer>(n, (i1, i2) -> capital[i1] - capital[i2]);
