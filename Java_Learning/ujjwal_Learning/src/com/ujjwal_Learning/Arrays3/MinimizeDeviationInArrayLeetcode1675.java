@@ -9,6 +9,7 @@ public class MinimizeDeviationInArrayLeetcode1675 {
 
 	}
 
+	// added method find minimize deviation
 	public int minimumDeviation(int[] nums) {
 		TreeSet<Integer> set = new TreeSet<>();
 		for (int x : nums)
