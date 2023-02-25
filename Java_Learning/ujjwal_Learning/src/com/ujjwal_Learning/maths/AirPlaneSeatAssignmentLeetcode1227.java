@@ -7,6 +7,7 @@ public class AirPlaneSeatAssignmentLeetcode1227 {
 
 	}
 
+	// added method to fetch nth person seat
 	public double nthPersonGetsNthSeat(int n) {
 		return (n == 1) ? 1.0 : 0.50;
 	}
