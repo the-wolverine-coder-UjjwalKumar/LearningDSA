@@ -15,6 +15,7 @@ public class BuySellStockLeetCode121 {
 	 */
 
 	// Leetocde daily solution
+	// added method to buy sell stock one
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
