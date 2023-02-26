@@ -14,7 +14,7 @@ public class SetMatrixZerosLeetCode73 {
 		printMatrix(matrix);
 
 	}
-	
+	// Added method to set zeros using traversal method
 	// Advanced approach Added Leetcode daily solution
 	private static void setZeros2(int[][] matrix) {
 		
