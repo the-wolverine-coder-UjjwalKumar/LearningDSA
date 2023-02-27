@@ -9,6 +9,7 @@ public class ConstructQuadTreeLeetcode427 {
 
 	}
 
+	// added quad-tree implementation
 	class Node {
 		public boolean val;
 		public boolean isLeaf;
