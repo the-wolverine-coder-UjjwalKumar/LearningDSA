@@ -7,6 +7,7 @@ public class StringCompressionLeetcode443 {
 
 	}
 
+	// added leetcode daily solution
 	public int compress(char[] chars) {
 
 		if (chars == null || chars.length == 0)
