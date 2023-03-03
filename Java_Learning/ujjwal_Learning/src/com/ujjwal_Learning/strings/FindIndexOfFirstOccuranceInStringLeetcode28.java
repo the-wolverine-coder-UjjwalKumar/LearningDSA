@@ -7,6 +7,8 @@ public class FindIndexOfFirstOccuranceInStringLeetcode28 {
 
 	}
 
+	
+	// added leetcode daily solution
 	public int strStr(String haystack, String needle) {
 		for (int i = 0;; i++) {
 			for (int j = 0;; j++) {
