@@ -7,6 +7,7 @@ public class CountSubIslandLeetcode1905 {
 
 	}
 
+	// added method to fetch sub islands
 	public int countSubIslands(int[][] grid1, int[][] grid2) {
 		int result = 0;
 		for (int i = 0; i < grid2.length; i++)
