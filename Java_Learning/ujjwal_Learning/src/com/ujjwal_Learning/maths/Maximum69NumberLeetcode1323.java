@@ -7,6 +7,7 @@ public class Maximum69NumberLeetcode1323 {
 
 	}
 
+	// added method to get max number containing 69
 	public int maximum69Number(int num) {
 
 		int add = 0;
