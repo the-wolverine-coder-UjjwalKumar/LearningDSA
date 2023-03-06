@@ -7,6 +7,7 @@ public class KthMissingNumberLeetcode1539 {
 
 	}
 
+	// added BS impl to get kth missing positive integer
 	public int findKthPositive(int[] arr, int k) {
 		int l = 0, r = arr.length;
 		while (l < r) {
