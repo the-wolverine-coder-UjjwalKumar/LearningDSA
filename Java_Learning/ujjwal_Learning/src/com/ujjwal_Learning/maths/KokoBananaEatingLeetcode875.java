@@ -7,6 +7,7 @@ public class KokoBananaEatingLeetcode875 {
 
 	}
 
+	// added leetcode daily solution
 	public int minEatingSpeed(int[] piles, int h) {
 		long end = 0;
 		for (int n : piles) {
