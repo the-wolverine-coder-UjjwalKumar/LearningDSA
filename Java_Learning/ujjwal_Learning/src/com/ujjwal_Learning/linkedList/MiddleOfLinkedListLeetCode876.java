@@ -2,6 +2,7 @@ package com.ujjwal_Learning.linkedList;
 
 public class MiddleOfLinkedListLeetCode876 {
 
+	// added both recursive and fast - slow pointer
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ListNode head = new ListNode(4);
