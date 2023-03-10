@@ -8,6 +8,7 @@ public class RansomNoteLeetcode383 {
 	}
 
 	// Added Leetcode daily solution
+	// added ransome note impl
 	public boolean canConstruct(String ransomNote, String magazine) {
 		int[] arr1 = new int[26];
 
