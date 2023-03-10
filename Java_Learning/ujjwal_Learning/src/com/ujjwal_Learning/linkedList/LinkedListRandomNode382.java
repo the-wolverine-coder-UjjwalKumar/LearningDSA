@@ -11,7 +11,8 @@ public class LinkedListRandomNode382 {
 
 	ListNode head;
 	Random random;
-
+	
+	// added random ll impl
 	public LinkedListRandomNode382(ListNode h) {
 		head = h;
 		random = new Random();
