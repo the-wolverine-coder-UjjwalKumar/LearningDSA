@@ -9,6 +9,11 @@ public class SymmetricBinaryTreeLeetCode101 {
 		// TODO Auto-generated method stub
 
 	}
+	public SymmetricBinaryTreeLeetCode101() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	// added symmetric tree check method
 	
 	public boolean isSymmetric(TreeNode root) {
         return root==null || isSymmetricHelp(root.left, root.right);
