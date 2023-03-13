@@ -13,6 +13,7 @@ public class BinaryTreeLevelOrderTraversalLeetcode102 {
 	}
 
 	// added method to retrive level order 
+	// level wise traversal
 	public List<List<Integer>> levelOrder(TreeNode root) {
 		List<List<Integer>> l = new ArrayList<>();
 		if (root != null) {
