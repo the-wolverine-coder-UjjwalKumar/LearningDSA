@@ -7,6 +7,7 @@ public class ImplementTriePrefixTreeLeetcode208 {
 
 	}
 
+	// implemented prefix trie
 	class TrieNode {
 		public char val;
 		public boolean isWord;
