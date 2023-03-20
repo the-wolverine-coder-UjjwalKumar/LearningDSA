@@ -7,6 +7,7 @@ public class CanPlaceFlowerLeetcode605 {
 
 	}
 
+	// added canPlaceFlower method
 	public boolean canPlaceFlowers(int[] flowerbed, int n) {
 		int count = 1;
 		int result = 0;
