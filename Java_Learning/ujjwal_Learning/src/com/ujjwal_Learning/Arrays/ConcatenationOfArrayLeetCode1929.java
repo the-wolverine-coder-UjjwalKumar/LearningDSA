@@ -7,6 +7,7 @@ public class ConcatenationOfArrayLeetCode1929 {
 
 	}
 
+	// added leetcode daily solution
 	public int[] getConcatenation(int[] arr) {
 		int n = arr.length;
 
