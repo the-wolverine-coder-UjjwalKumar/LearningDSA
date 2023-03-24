@@ -15,7 +15,8 @@ public class ReOrderRoutesToMakeAllPathToZeroLeetcode1466 {
 		// TODO Auto-generated method stub
 
 	}
-
+	
+	// added leetcode daily solution
 	public int minReorder(int n, int[][] connections) {
 		Map<Integer, List<Integer>> graph = new HashMap<>();
 
