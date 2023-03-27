@@ -7,6 +7,7 @@ public class MaximumPathCostLeetCode1937 {
 
 	}
 
+	// added leetcode daily solution
 	public long maxPoints(int[][] points) {
 		long ans = 0;
 		int m = points.length, n = points[0].length;
