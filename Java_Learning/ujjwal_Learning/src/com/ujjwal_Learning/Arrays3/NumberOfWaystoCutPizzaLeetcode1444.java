@@ -9,6 +9,7 @@ public class NumberOfWaystoCutPizzaLeetcode1444 {
 
 	}
 
+	// added leetcode solution
 	int mod = (int) Math.pow(10, 9) + 7;
 
 	public int ways(String[] pizza, int k) {
