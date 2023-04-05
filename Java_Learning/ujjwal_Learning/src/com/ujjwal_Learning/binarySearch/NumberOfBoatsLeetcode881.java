@@ -1,10 +1,17 @@
-public class NumberOfBoardLeetcode881 {
+package com.ujjwal_Learning.binarySearch;
+
+import java.util.Arrays;
+
+public class NumberOfBoatsLeetcode881 {
   
   public static void main(String[] args) {
     // TODO: add inputs
+	  int[] people = {3,2,2,1};
+	  int limit = 3;
+	  System.out.println(numRescueBoats(people, limit));
   }
 
-  public int numRescueBoats(int[] people, int limit) {
+  public static int numRescueBoats(int[] people, int limit) {
         int boatCount = 0;
         Arrays.sort(people);
         
