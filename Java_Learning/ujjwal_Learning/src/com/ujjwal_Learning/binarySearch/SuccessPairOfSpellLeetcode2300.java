@@ -1,6 +1,12 @@
+package com.ujjwal_Learning.binarySearch;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 class SuccessPairOfSpellLeetcode2300 {
   
-  public static main(String[] args){
+  public static void main(String[] args){
     // TODO: need to add logic
   }
   
