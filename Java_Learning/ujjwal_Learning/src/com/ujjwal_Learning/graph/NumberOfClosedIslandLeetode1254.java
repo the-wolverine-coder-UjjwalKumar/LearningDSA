@@ -7,6 +7,7 @@ public class NumberOfClosedIslandLeetode1254 {
 
 	}
 
+	// added leetcode daily solution
 	public int closedIsland(int[][] grid) {
 		int r = grid.length;
 		int c = grid[0].length;
