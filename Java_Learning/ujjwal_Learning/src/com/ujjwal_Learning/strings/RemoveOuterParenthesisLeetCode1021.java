@@ -7,6 +7,7 @@ public class RemoveOuterParenthesisLeetCode1021 {
 
 	}
 
+	// remove outer parenthesis
 	public String removeOuterParentheses(String S) {
 
 		StringBuilder sb = new StringBuilder();
