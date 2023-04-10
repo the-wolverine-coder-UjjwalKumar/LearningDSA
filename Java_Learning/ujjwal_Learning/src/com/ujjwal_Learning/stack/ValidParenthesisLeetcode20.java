@@ -10,6 +10,7 @@ public class ValidParenthesisLeetcode20 {
 	}
 
 	// Valid parenthesis
+	// checking is valid parenthesis present or not
 	public boolean isValid(String s) {
 		Stack<Character> stack = new Stack<Character>();
 		for (char c : s.toCharArray()) {
