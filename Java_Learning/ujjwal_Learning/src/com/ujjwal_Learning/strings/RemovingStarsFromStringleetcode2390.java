@@ -10,6 +10,7 @@ public class RemovingStarsFromStringleetcode2390 {
 
 	}
 
+	// added leetcode solution
 	public String removeStars(String s) {
 		Deque<String> dq = new ArrayDeque<>();
 		for (int i = 0; i < s.length(); ++i) {
