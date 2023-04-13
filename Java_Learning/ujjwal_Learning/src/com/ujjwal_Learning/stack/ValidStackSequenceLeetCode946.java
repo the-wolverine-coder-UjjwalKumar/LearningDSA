@@ -9,6 +9,7 @@ public class ValidStackSequenceLeetCode946 {
 
 	}
 
+	// added leetcode solution
 	public boolean validateStackSequences(int[] pushed, int[] popped) {
 		Stack<Integer> stack = new Stack<>();
 		int i = 0;
