@@ -7,6 +7,7 @@ public class NumberOfWaysToFormTargetStringLeetcode1639 {
 
 	}
 
+	// added leetcode daily solution
 	public int numWays(String[] words, String target) {
 		int n = target.length();
 		long mod = (long) 1e9 + 7, res[] = new long[n + 1];
