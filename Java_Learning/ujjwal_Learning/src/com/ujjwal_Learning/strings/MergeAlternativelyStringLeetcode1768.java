@@ -17,6 +17,7 @@ public class MergeAlternativelyStringLeetcode1768 {
 
 	}
 
+	// added solution merge string alternatively
 	class Solution {
 		public String mergeAlternately(String word1, String word2) {
 			int n = word1.length();
