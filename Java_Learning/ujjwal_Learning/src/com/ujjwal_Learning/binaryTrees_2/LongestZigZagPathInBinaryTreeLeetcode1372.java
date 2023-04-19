@@ -15,6 +15,7 @@ public class LongestZigZagPathInBinaryTreeLeetcode1372 {
 		return maxStep;
 	}
 
+	// added leetcode daily solution
 	private void dfs(TreeNode root, boolean isLeft, int step) {
 		if (root == null)
 			return;
