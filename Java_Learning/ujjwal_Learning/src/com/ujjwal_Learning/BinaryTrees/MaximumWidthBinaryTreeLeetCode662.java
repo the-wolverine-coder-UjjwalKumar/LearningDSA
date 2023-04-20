@@ -21,6 +21,7 @@ public class MaximumWidthBinaryTreeLeetCode662 {
 
 	}
 
+	// added code to fetch the width of BT
 	public int widthOfBinaryTree(TreeNode root) {
 		if (root == null)
 			return 0;
