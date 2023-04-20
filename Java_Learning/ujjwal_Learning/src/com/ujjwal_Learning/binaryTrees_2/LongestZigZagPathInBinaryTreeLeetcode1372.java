@@ -18,8 +18,7 @@ public class LongestZigZagPathInBinaryTreeLeetcode1372 {
 	// added leetcode daily solution
 	private void dfs(TreeNode root, boolean isLeft, int step) {
 		if (root == null)
-			return;
-		maxStep = Math.max(maxStep, step); // update max step sofar
+			return;MaximumWidth		maxStep = Math.max(maxStep, step); // update max step sofar
 		if (isLeft) {
 			dfs(root.left, false, step + 1); // keep going from root to left
 			dfs(root.right, true, 1); // restart going from root to right
