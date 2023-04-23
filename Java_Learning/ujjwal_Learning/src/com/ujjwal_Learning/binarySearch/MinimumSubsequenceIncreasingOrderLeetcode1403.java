@@ -11,6 +11,7 @@ public class MinimumSubsequenceIncreasingOrderLeetcode1403 {
 
 	}
 
+	// added leetcode daily solution
 	public List<Integer> minSubsequence(int[] nums) {
 		List<Integer> lst = new ArrayList<>();
 		Arrays.sort(nums);
