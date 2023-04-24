@@ -10,6 +10,8 @@ public class LastStoneWeightGameLeetCode1046 {
 
 	}
 
+	
+	// added implementation using max heap to get the last stone weight
 	public int lastStoneWeight(int[] stones) {
 		if (stones == null || stones.length == 0) {
 			return 0;
