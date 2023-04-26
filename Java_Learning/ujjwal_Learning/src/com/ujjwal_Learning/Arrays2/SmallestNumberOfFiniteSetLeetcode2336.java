@@ -14,7 +14,7 @@ public class SmallestNumberOfFiniteSetLeetcode2336 {
 
     public SmallestNumberOfFiniteSetLeetcode2336() {
         queue = new PriorityQueue<>();
-        current = 1;
+        current = 1; 
     }
 
     public int popSmallest() {
