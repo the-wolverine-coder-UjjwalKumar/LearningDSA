@@ -7,6 +7,7 @@ public class BulbSwitcherTwoLeetcode672 {
 
 	}
 
+	// added recursive code
 	public int flipLights(int n, int m) {
 		if (m == 0)
 			return 1;
