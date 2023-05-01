@@ -7,6 +7,7 @@ public class AverageSalaryExcludingOtherLeetCode1491 {
 
 	}
 
+	// added simple yet optimal approach
 	public double average(int[] salary) {
 		// Arrays.sort(salary);
 
