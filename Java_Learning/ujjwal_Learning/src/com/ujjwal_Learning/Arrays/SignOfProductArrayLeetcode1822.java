@@ -7,7 +7,7 @@ public class SignOfProductArrayLeetcode1822 {
 
 	}
 
-	// added array sign function after ultiplication
+	// added array sign function after multiplication
 	public int arraySign(int[] nums) {
 		int negativeCount = 0;
 		for (int i : nums) {
