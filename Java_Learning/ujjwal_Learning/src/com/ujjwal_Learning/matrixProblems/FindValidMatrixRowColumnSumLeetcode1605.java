@@ -7,6 +7,7 @@ public class FindValidMatrixRowColumnSumLeetcode1605 {
 
 	}
 
+	// added leetcode daily answer
 	public int[][] restoreMatrix(int[] rowSum, int[] colSum) {
 		int[][] output = new int[rowSum.length][colSum.length];
 
