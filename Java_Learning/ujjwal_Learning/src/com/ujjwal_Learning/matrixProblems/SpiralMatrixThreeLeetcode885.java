@@ -7,6 +7,7 @@ public class SpiralMatrixThreeLeetcode885 {
 
 	}
 
+	// optimized approach to traverse spiral manner in matrix
 	public int[][] spiralMatrixIII(int R, int C, int x, int y) {
 		int[][] res = new int[R * C][2];
 		int dx = 0, dy = 1, n = 0, tmp;
