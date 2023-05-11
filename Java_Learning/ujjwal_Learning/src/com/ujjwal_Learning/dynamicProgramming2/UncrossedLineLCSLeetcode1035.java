@@ -9,6 +9,7 @@ public class UncrossedLineLCSLeetcode1035 {
 
 	}
 
+	// added uncrossed solution using DP
 	private int[][] dp;
 
 	public int maxUncrossedLines(int[] nums1, int[] nums2) {
