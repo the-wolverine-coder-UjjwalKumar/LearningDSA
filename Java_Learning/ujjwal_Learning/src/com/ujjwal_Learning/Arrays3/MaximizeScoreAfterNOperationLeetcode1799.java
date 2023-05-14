@@ -7,6 +7,7 @@ public class MaximizeScoreAfterNOperationLeetcode1799 {
 
 	}
 
+	// added DP solution
 	public int maxScore(int[] nums) {
 		int n = nums.length;
 		Integer[] memo = new Integer[1 << n];
