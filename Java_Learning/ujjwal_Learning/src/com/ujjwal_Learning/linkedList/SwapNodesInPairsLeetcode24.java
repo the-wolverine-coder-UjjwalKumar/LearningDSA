@@ -8,6 +8,7 @@ public class SwapNodesInPairsLeetcode24 {
 	}
 
 	// swap nodes in pair
+	// swapping node of LL
 	public ListNode swapPairs(ListNode head) {
 		if (head == null || head.next == null)
 			return head;
