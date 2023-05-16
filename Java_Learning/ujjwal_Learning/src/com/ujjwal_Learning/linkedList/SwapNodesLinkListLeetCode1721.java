@@ -37,6 +37,7 @@ public class SwapNodesLinkListLeetCode1721 {
 	 * at a time until fast reaches the end.
 	 */
 
+	// swapping LL nodes
 	public ListNode swapNodes(ListNode head, int k) {
 		ListNode fast = head;
 		ListNode slow = head;
