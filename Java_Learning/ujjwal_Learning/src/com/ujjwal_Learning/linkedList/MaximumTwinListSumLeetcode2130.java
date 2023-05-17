@@ -9,6 +9,7 @@ public class MaximumTwinListSumLeetcode2130 {
 
 	// Recursion + Two Pointer
 	// max to keep the track of max sum value
+	// added max twin sum LL
 	private int max;
 
 	// this pointer moves from left to right
