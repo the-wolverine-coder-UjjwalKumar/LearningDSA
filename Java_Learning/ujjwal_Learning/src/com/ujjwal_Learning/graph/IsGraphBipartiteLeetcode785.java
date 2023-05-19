@@ -11,6 +11,7 @@ public class IsGraphBipartiteLeetcode785 {
 
 	}
 
+	// added code to check bipartite graph
 	public boolean isBipartite(int[][] graph) {
 		int[] color = new int[graph.length];
 		Arrays.fill(color, -1);
