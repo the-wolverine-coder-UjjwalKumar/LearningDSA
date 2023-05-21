@@ -10,6 +10,7 @@ public class ShortestBridgeLeetcode934 {
 
 	}
 
+	// added solution for shortest bridge
 	public int shortestBridge(int[][] A) {
 		int m = A.length, n = A[0].length;
 		boolean found = false;
