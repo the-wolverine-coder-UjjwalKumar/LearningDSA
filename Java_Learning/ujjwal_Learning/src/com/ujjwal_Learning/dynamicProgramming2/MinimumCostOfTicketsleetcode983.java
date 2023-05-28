@@ -7,6 +7,8 @@ public class MinimumCostOfTicketsleetcode983 {
 
 	}
 
+	
+	// min cost to cut tickets
 	public int mincostTickets(int[] days, int[] costs) {
 		// length up to the last travel + 1 day is good enough (no need for 365)
 		int lastDay = days[days.length - 1];
