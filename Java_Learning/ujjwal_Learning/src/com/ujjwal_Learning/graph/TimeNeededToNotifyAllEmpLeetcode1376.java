@@ -13,6 +13,7 @@ public class TimeNeededToNotifyAllEmpLeetcode1376 {
 
 	}
 
+	// added solution  
 	class Pair {
 		int node;
 		int time;
