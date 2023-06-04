@@ -7,6 +7,7 @@ public class NumberOfProvinessLeetcode547 {
 
 	}
 	
+	// added number of provinces solution
 	 public int findCircleNum(int[][] isConnected) {
 	        if(isConnected == null || isConnected.length == 0)
 	            return 0;
