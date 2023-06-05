@@ -7,6 +7,7 @@ public class CheckIfStraightLineLeetcode1232 {
 
 	}
 
+	// added solution to check points lies in straight line or not
 	public boolean checkStraightLine(int[][] coordinates) {
 		int[] a = coordinates[0];
 		int[] b = coordinates[1];
