@@ -13,6 +13,7 @@ public class CheckIfStraightLineLeetcode1232 {
 		int[] b = coordinates[1];
 		int x1 = a[0];
 		int x2 = b[0];
+		
 		int y1 = a[1];
 		int y2 = b[1];
 
