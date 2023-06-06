@@ -10,6 +10,7 @@ public class CanMakePalindromeLeetcode1177 {
 
 	}
 
+	// added leetcode solution
 	public List<Boolean> canMakePaliQueries(String s, int[][] queries) {
 		int str_len = s.length();
 		int j = 0;
