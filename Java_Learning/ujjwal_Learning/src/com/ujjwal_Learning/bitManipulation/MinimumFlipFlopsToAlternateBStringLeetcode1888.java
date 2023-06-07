@@ -7,6 +7,7 @@ public class MinimumFlipFlopsToAlternateBStringLeetcode1888 {
 
 	}
 
+	// added solution to do min flip to get string
 	public int minFlips(String s) {
 		/*
 		 * Sliding Window Approach
