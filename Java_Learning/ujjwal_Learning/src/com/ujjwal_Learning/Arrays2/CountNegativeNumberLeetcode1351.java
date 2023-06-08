@@ -7,6 +7,7 @@ public class CountNegativeNumberLeetcode1351 {
 
 	}
 
+	// added leetcode solution
 	public int countNegatives(int[][] grid) {
 		int res = 0;
 		int m = grid.length;
