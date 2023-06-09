@@ -7,6 +7,7 @@ public class FindSmallestGreaterThanTargetLeetcode744 {
 
 	}
 
+	// find smallest letter greater than target
 	public char nextGreatestLetterNaive(char[] a, char x) {
 		int n = a.length;
 
