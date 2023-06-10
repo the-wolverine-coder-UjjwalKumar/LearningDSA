@@ -18,6 +18,7 @@ public class MaximumValueAtGivenIndexLeetcode1802 {
 		return sumBefore + sumAfter - value <= maxSum;
 	}
 
+	// added method to fetch max value
 	public int maxValue(int n, int index, int maxSum) {
 		int left = 0, right = maxSum - n;
 
