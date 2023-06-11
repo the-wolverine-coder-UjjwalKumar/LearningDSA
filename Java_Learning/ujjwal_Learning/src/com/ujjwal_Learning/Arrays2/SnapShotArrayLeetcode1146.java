@@ -13,6 +13,7 @@ public class SnapShotArrayLeetcode1146 {
 	public List<int[]>[] h;
 	public int snap = 0;
 
+	// added Leetcode solution for snapshotArray
 	public SnapShotArrayLeetcode1146(int length) {
         h = new List[length];
         for (int i = 0; i < length; i++) {
