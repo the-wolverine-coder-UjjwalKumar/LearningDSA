@@ -10,6 +10,7 @@ public class SummaryRangesLeetcode228 {
 
 	}
 
+	// added summary range solution
 	public List<String> summaryRanges(int[] nums) {
 		int n = nums.length;
 		List<String> al = new ArrayList<>();
