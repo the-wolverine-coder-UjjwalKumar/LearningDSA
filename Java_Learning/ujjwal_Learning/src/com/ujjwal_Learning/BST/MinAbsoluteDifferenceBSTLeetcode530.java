@@ -7,6 +7,7 @@ public class MinAbsoluteDifferenceBSTLeetcode530 {
 
 	}
 
+	// added inorder approach to find the min abs diff in BST
 	private int min_abs = Integer.MAX_VALUE;
 	private TreeNode prev = null;
 
