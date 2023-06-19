@@ -7,6 +7,7 @@ public class FindTheHighestAltitudeLeetcode1732 {
 
 	}
 
+	// added leetocde solution
 	public int largestAltitude(int[] gain) {
 		int max_alt = 0;
 		int curr_alt = 0;
