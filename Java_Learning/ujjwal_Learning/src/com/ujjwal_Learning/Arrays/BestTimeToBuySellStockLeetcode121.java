@@ -6,7 +6,8 @@ public class BestTimeToBuySellStockLeetcode121 {
 		// TODO Auto-generated method stub
 
 	}
-	
+
+	// added leetcode solution
 	public int maxProfit(int[] prices) {
 	    if (prices.length == 0)
 				return 0;
