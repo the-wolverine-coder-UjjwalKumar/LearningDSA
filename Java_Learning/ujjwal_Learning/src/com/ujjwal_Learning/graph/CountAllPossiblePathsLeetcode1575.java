@@ -12,6 +12,7 @@ public class CountAllPossiblePathsLeetcode1575 {
 	long mod = 1000000007;
 	long[][] dp;
 
+	//added leetcode solution 
 	public long dfs(int[] lo, int s, int e, int f, int n) {
 		if (f < 0)
 			return 0;
