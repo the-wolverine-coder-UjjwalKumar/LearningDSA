@@ -11,6 +11,7 @@ public class FindKPairWithSmallestSumLeetcode373 {
 
 	}
 
+	// added solution 
 	class Pair {
 		int numFromArray1;
 		int numFromArray2;
