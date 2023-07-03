@@ -12,6 +12,7 @@ public class BuddyStringLeetcode859 {
 
 	}
 
+	// added solution
 	public boolean buddyStrings(String A, String B) {
 		if (A.length() != B.length())
 			return false;
