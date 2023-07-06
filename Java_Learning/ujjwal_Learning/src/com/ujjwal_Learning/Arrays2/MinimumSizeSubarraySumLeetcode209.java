@@ -7,6 +7,7 @@ public class MinimumSizeSubarraySumLeetcode209 {
 
 	}
 
+	// added leetcode daily solution
 	public int minSubArrayLen(int s, int[] a) {
 		if (a == null || a.length == 0)
 			return 0;
