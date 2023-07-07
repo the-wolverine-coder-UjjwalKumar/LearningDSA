@@ -7,6 +7,7 @@ public class MaximizeTheSubsequenceNumberLeetcode2207 {
 
 	}
 
+	// added leetcode daily solution
 	public long maximumSubsequenceCount(String s, String pattern) {
 		long res = 0, cnt1 = 0, cnt2 = 0;
 		for (int i = 0; i < s.length(); ++i) {
