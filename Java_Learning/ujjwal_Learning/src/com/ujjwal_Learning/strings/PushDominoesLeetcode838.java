@@ -7,6 +7,8 @@ public class PushDominoesLeetcode838 {
 
 	}
 
+	
+	// added leetcode solution
 	public String pushDominoes(String dominoes) {
 		char[] a = dominoes.toCharArray();
 		for (int i = 0, L = -1, R = -1; i <= dominoes.length(); i++)
