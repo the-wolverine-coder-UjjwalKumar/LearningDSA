@@ -17,6 +17,7 @@ public class FindEvaluatedSafeStatesLeetcode802 {
 
 	}
 
+	// added solution
 	public List<Integer> eventualSafeNodes(int[][] graph) {
 		int N = graph.length;
 		int[] degree = new int[N];
