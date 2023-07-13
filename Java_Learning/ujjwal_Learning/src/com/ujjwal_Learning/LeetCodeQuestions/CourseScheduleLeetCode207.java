@@ -10,6 +10,7 @@ public class CourseScheduleLeetCode207 {
 
 	}
 	//method-1
+	// added solution
 	public boolean canFinish(int numCourses, int[][] prerequisites) {
 	    if(numCourses == 0 || prerequisites == null || prerequisites.length == 0) return true; //??
 	    
