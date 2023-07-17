@@ -10,6 +10,7 @@ public class AddTwoNumbers2LeetCode445 {
 	}
 
 	// added function to get add two number
+	// added two number sum using stack and moving head pointer
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		Stack<Integer> s1 = new Stack<Integer>();
 		Stack<Integer> s2 = new Stack<Integer>();
