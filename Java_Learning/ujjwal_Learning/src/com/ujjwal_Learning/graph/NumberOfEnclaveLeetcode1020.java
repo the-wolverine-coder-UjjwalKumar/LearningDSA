@@ -8,6 +8,7 @@ public class NumberOfEnclaveLeetcode1020 {
 	}
 
 	// added leetocde solution
+	// added numEnclaves solution
 	public int numEnclaves(int[][] arr) {
 //      first of all we will remove zeros from the corners of the matrix
 		for (int i = 0; i < arr.length; i++) {
