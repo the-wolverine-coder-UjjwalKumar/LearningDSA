@@ -7,6 +7,7 @@ public class KnightProbabilityInChessBoardLeetcode688 {
 
 	}
 
+	// added solution
 	int[][] direction = new int[][] { { 2, 1 }, { -2, 1 }, { 2, -1 }, { -2, -1 }, { 1, 2 }, { 1, -2 }, { -1, 2 },
 			{ -1, -2 } };
 
