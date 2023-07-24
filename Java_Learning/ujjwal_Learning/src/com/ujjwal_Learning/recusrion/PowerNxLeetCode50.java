@@ -15,6 +15,8 @@ public class PowerNxLeetCode50 {
             return negative(x,n);
     }
     
+	
+	// added pow function with -ve powers
     private double negative(double x, int n)
     {
         if(n==-1)
