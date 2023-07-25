@@ -16,6 +16,7 @@ public class PeakIndexInMountainArrayLeetcode852 {
 	}
 
 	// Binary Search
+	// added solution for peak index in array
 	public int peakIndexInMountainArrayBS(int[] A) {
 		int l = 0, r = A.length - 1, m;
 		while (l < r) {
