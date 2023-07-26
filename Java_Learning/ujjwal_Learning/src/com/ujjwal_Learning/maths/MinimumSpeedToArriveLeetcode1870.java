@@ -7,6 +7,7 @@ public class MinimumSpeedToArriveLeetcode1870 {
 
 	}
 
+	// added solution to arrive at min time.
 	public int minSpeedOnTime(int[] dist, double hour) {
 		int left = 1;
 		int right = (int) 1e8;
