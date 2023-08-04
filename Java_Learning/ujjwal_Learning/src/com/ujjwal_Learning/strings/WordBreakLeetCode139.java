@@ -21,6 +21,7 @@ public class WordBreakLeetCode139 {
 //		Output: true
 //		Explanation: Return true because "applepenapple" can be segmented as "apple pen apple".
 //		Note that you are allowed to reuse a dictionary word.
+	// added solution 
 	public boolean wordBreak(String s, List<String> wordDict) {
 
 		boolean[] f = new boolean[s.length() + 1];
