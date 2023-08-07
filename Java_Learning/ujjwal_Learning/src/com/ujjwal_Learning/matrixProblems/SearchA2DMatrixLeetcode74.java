@@ -7,6 +7,7 @@ public class SearchA2DMatrixLeetcode74 {
 
 	}
 
+	// added leetcode solution
 	public boolean searchMatrixOptimizedBS(int[][] matrix, int target) {
 
 		for (int i = 0; i < matrix.length; i++) {
