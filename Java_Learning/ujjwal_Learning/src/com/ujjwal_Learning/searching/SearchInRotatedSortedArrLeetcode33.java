@@ -7,6 +7,7 @@ public class SearchInRotatedSortedArrLeetcode33 {
 
 	}
 
+	// added BS in rotated sorted array
 	public int search(int[] nums, int target) {
 		if (nums.length == 0)
 			return -1;
