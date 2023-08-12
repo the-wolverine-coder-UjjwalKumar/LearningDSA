@@ -8,6 +8,7 @@ public class UniquePathsLeetCode62 {
 	}
 
 	// Leetcode daily solution
+	// added unique path solution
 	public int uniquePaths(int m, int n) {
 		int N = m + n - 2;
 		int r = m - 1; // I am taking the RR
