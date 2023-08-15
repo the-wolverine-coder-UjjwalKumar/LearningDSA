@@ -8,6 +8,7 @@ public class PartitionListLeetcode86 {
 	}
 
 	// Daily Leetcode solution
+	// added solution keeping small and large list and then merge it
 	public ListNode partition(ListNode head, int x) {
 		ListNode headCopy = head;
 		ListNode h = null;
