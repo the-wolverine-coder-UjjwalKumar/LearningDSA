@@ -10,6 +10,7 @@ public class SlidingWindowMaximumLeetcode239 {
 
 	}
 
+	// added solution
 	public int[] maxSlidingWindow(int[] a, int k) {
 		if (a == null || k <= 0) {
 			return new int[0];
