@@ -7,6 +7,7 @@ public class ZeroAndOnesLeetcode474 {
 
 	}
 
+	// added leetcode solution 
 	public int findMaxForm(String[] strs, int m, int n) {
 		int[][] arr = new int[m + 1][n + 1];
 
