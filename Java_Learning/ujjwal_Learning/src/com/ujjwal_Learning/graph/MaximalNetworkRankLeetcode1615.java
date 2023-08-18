@@ -9,6 +9,7 @@ public class MaximalNetworkRankLeetcode1615 {
 
 	}
 
+	// added solution
 	ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
 
 	public int maximalNetworkRank(int n, int[][] roads) {
