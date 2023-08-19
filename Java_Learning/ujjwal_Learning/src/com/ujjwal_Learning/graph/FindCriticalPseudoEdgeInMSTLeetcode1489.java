@@ -54,6 +54,7 @@ public class FindCriticalPseudoEdgeInMSTLeetcode1489 {
 
 	}
 
+	// find critical & psuedo critical connections
 	public List<List<Integer>> findCriticalAndPseudoCriticalEdges(int n, int[][] edges) {
 
 		List<Integer> criticals = new ArrayList<>();
