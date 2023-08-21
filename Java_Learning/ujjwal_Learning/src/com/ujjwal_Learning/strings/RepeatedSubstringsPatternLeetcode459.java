@@ -7,6 +7,7 @@ public class RepeatedSubstringsPatternLeetcode459 {
 
 	}
 
+	// added repeated substring solution
 	public boolean repeatedSubstringPattern(String s) {
 		int len = s.length();
 		int d = 2;
