@@ -7,6 +7,7 @@ public class ExcelSheetColumnTitleLeetcode168 {
 
 	}
 
+	// added solution
 	public String convertToTitle(int columnNumber) {
 		int n = columnNumber;
 
