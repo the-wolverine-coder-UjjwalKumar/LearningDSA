@@ -7,7 +7,7 @@ public class InterleavingStringLeetcode97 {
 
 	}
 
-	// daily leetcode solution
+	// added solution
 	public boolean isInterleave(String s1, String s2, String s3) {
 
 		if ((s1.length() + s2.length()) != s3.length())
