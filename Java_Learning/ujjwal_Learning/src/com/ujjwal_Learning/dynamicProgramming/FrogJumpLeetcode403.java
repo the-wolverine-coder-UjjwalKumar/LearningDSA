@@ -26,6 +26,7 @@ public class FrogJumpLeetcode403 {
 		}
 
 		// 0 jump before first stone
+		// added solution leetcode 
 		al[0].add(0);
 		for (int i = 1; i < n; i++) {
 			for (int j = 0; j < i; j++) {
