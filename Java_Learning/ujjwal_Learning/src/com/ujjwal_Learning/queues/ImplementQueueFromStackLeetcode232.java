@@ -14,7 +14,7 @@ public class ImplementQueueFromStackLeetcode232 {
 		output = new Stack<>();
 	}
 
-	// push peek and pop iplementation using stack
+	// push peek and pop implementation using stack
 	public void push(int x) {
 		// only push the new item when the order is maintained as precondition to push
 		while (!output.isEmpty()) {
