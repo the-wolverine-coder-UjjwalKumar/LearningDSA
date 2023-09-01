@@ -22,6 +22,7 @@ public class CountingSetBitArrayLeetCode338 {
 //		4 --> 100
 //		5 --> 101
 
+	// added solution conting bits
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
