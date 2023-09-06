@@ -21,6 +21,7 @@ public class SplitLinkedListInPartsLeetCode725 {
 	 * 
 	 * Return an array of the k parts.
 	 */
+	// added solution
 	public ListNode[] splitListToParts(ListNode root, int k) {
 		ListNode[] parts = new ListNode[k];
 		int len = 0;
