@@ -7,6 +7,7 @@ public class CountAllPickUpDeliveryOptionLeetCode1359 {
 
 	}
 
+	// added all pickup delivery options
 	public int countOrders(int n) {
 		long res = 1, mod = (long) 1e9 + 7;
 		for (int i = 1; i <= n; ++i)
