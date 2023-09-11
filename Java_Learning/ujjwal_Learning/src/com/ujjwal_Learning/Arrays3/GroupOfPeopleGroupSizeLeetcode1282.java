@@ -11,6 +11,7 @@ public class GroupOfPeopleGroupSizeLeetcode1282 {
 
 	}
 
+	// added solution to group of people by group size
 	public List<List<Integer>> groupThePeople(int[] arr) {
 
 		int n = arr.length;
