@@ -9,6 +9,7 @@ public class MinimumNumberOfTapsToWaterGardenLeetcode1326 {
 
 	}
 
+	// added leetcode solution
 	public int minTaps(int n, int[] A) {
 		int[] dp = new int[n + 1];
 		Arrays.fill(dp, n + 2);
