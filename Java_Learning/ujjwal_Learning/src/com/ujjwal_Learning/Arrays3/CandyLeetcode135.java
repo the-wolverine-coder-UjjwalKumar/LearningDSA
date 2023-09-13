@@ -9,6 +9,7 @@ public class CandyLeetcode135 {
 
 	}
 
+	// added solution to distribute candy
 	public int candy(int[] ratings) {
 		int candies[] = new int[ratings.length];
 		Arrays.fill(candies, 1);// Give each child 1 candy
