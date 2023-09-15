@@ -15,6 +15,7 @@ public class MinimumCostToMakeArrayEqualLeetcode2448 {
 		return res;
 	}
 
+	// added min cost to make array equal 
 	public long minCost(int[] nums, int[] cost) {
 		long left = 1L;
 		long right = 1000000L;
