@@ -10,6 +10,7 @@ public class PathWithMinimumEffortLeetcode1631 {
 
 	}
 
+	// added solution path with min effort
 	public int minimumEffortPath(int[][] heights) {
 		// we can go with the djikstra here as we need to find the shortest path and
 		// take the difference as the weight between two node
