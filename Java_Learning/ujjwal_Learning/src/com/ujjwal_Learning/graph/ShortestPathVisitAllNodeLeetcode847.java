@@ -12,6 +12,7 @@ public class ShortestPathVisitAllNodeLeetcode847 {
 
 	}
 
+	// added leetcode solution 
 	public int shortestPathLength(int[][] graph) {
 
 		HashMap<Integer, ArrayList<Integer>> hm = new HashMap<>();
