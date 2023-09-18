@@ -9,6 +9,8 @@ public class KWeaksetWeekendLeetcode1337 {
 
 	}
 
+	
+	// added K weakest row sing min heap which store the soilder vs index count
 	public int[] kWeakestRows(int[][] mat, int k) {
 		PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] != b[0] ? b[0] - a[0] : b[1] - a[1]); //
 		int[] ans = new int[k];
