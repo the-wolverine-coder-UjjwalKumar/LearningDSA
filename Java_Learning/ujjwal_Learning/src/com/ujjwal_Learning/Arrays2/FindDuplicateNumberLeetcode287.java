@@ -7,7 +7,7 @@ public class FindDuplicateNumberLeetcode287 {
 
 	}
 
-	// Leetcode daily solution
+	// added solution to find duplicate nums
 	public int findDuplicate(int[] nums) {
 		for (int n : nums) {
 			if (nums[Math.abs(n)] < 0) {
