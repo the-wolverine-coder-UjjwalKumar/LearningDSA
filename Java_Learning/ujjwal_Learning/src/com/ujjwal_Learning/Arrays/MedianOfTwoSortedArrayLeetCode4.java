@@ -8,6 +8,7 @@ public class MedianOfTwoSortedArrayLeetCode4 {
 	}
 
 	// added BS implementation of median finding
+	// added solution 
 	public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 		int N1 = nums1.length;
 		int N2 = nums2.length;
