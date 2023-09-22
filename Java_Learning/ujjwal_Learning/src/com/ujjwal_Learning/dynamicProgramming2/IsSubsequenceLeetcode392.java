@@ -7,6 +7,7 @@ public class IsSubsequenceLeetcode392 {
 
 	}
 
+	// added solution for finding isSubsequence
 	public boolean isSubsequence(String s, String t) {
 		if (s.length() == 0)
 			return true;
