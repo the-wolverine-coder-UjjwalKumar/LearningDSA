@@ -11,6 +11,7 @@ public class LongestStringChainLeetcode1048 {
 
 	}
 
+	// added solution 
 	public int longestStrChain(String[] words) {
 		Map<String, Integer> dp = new HashMap<>();
 		Arrays.sort(words, (a, b) -> a.length() - b.length());
