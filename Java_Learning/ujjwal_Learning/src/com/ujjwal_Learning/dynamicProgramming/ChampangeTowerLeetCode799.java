@@ -7,6 +7,7 @@ public class ChampangeTowerLeetCode799 {
 
 	}
 
+	// added solution
 	public double champagneTower(int poured, int query_row, int query_glass) {
 		double[][] triangle = new double[query_row + 1][query_glass + 2];
 		triangle[0][0] = poured;
