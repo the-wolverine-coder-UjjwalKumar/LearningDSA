@@ -12,6 +12,7 @@ public class FindTheDifferenceBettweenArrayLeetcode2215 {
 
 	}
 
+	// added solution to find the difference in set
 	public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
 		HashSet<Integer> hs1 = new HashSet<>();
 		HashSet<Integer> hs2 = new HashSet<>();
