@@ -9,6 +9,7 @@ public class RemoveDuplicatesFromStringLeetcode316 {
 
 	}
 
+	// added solution to remove duplicates and return smallest lexo-graphically soution
 	public String removeDuplicateLetters(String s) {
 
 		Stack<Character> stack = new Stack<Character>();
