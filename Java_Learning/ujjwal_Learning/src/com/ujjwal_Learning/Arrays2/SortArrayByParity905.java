@@ -7,6 +7,7 @@ public class SortArrayByParity905 {
 
 	}
 
+	// added solution to sort array based on parity
 	public int[] sortArrayByParity(int[] A) {
 		int n = A.length;
 		int start = 0;
