@@ -7,6 +7,7 @@ public class MonotonicArraysLeetcode896 {
 
 	}
 
+	// added monotonic array solution 
 	public boolean isMonotonic(int[] nums) {
 		int max = nums[0], n = nums.length;
 		for (int i = 1; i < n; i++) {
