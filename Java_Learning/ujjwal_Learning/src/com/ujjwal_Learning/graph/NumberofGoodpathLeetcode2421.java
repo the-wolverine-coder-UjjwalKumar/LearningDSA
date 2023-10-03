@@ -24,6 +24,7 @@ public class NumberofGoodpathLeetcode2421 {
         // create unionfind
         UnionFind uf = new UnionFind(n);
         
+        // added slution to find good path
         for (int i = 0; i < n; i++) { //O(N)
             adjList.add(new ArrayList<>());
             if (!tm.containsKey(vals[i])) {
