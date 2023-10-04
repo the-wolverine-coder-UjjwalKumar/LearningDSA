@@ -9,6 +9,7 @@ public class DesignHashMapLeetcode706 {
 
 	final ListNode[] nodes = new ListNode[10000];
 
+	// added custom implementation of hashmap
 	public void put(int key, int value) {
 		int i = idx(key);
 		if (nodes[i] == null)
