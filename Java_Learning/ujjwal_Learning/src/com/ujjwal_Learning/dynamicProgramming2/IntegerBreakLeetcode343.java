@@ -7,6 +7,7 @@ public class IntegerBreakLeetcode343 {
 
 	}
 
+	// added solution
 	public int integerBreak(int n) {
 		// dp[i] means output when input = i, e.g. dp[4] = 4 (2*2),dp[8] = 18 (2*2*3)...
 		int[] dp = new int[n + 1];
