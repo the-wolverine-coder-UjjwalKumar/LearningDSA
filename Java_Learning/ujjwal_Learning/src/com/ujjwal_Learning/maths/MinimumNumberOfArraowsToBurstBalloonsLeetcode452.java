@@ -14,6 +14,7 @@ public class MinimumNumberOfArraowsToBurstBalloonsLeetcode452 {
 		System.out.println(findMinArrowShots(points2));
 	}
 
+	// added solution
 	public static int findMinArrowShots(int[][] points) {
 
 		Arrays.sort(points, (a, b) -> {
