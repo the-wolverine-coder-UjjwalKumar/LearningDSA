@@ -11,6 +11,7 @@ public class PascalTriangleTwoLeetCode119 {
 
 	}
 
+	// added solution
 	public List<Integer> getRow1(int rowIndex) {
 		List<Integer> dp = new LinkedList<>();
 
