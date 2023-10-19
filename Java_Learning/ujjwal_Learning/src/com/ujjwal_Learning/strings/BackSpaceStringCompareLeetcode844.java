@@ -7,6 +7,7 @@ public class BackSpaceStringCompareLeetcode844 {
 
 	}
 
+	// added back space compare method
 	public boolean backspaceCompare(String S, String T) {
 		int i = S.length() - 1, j = T.length() - 1, back;
 		while (true) {
