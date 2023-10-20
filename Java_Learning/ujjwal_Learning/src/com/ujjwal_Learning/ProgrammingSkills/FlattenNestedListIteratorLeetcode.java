@@ -27,6 +27,7 @@ public class FlattenNestedListIteratorLeetcode {
 
 	}
 
+	// added flatten nested list iterator implementation
 	private List<Integer> integerList = new ArrayList<>();
 	private int index = 0;
 
