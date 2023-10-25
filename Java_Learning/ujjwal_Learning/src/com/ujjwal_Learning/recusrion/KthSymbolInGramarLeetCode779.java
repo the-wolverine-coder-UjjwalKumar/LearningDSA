@@ -8,6 +8,7 @@ public class KthSymbolInGramarLeetCode779 {
 		System.out.println(ans);
 	}
 
+	// added solution
 	public static int kthGrammar(int N, int K) {
 		if (N == 1)
 			return 0;
