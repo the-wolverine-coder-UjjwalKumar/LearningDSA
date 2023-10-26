@@ -11,6 +11,8 @@ public class BinaryTreeWithFactorsLeetcode823 {
 
 	}
 
+	
+	// added solution
 	public int numFactoredBinaryTrees(int[] A) {
 		Arrays.sort(A);
 		Map<Integer, Long> map = new HashMap<>();
