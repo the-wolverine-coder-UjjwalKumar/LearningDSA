@@ -7,6 +7,7 @@ public class LongestPalindromeLeetcode409 {
 
 	}
 
+	// added solution
 	public int longestPalindrome(String s) {
 		int[] lowercase = new int[26];
 		int[] uppercase = new int[26];
