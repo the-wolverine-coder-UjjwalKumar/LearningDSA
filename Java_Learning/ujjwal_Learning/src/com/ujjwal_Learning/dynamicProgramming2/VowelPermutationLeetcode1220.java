@@ -7,6 +7,7 @@ public class VowelPermutationLeetcode1220 {
 
 	}
 
+	// added solution
 	public int countVowelPermutation(int n) {
 		int MOD = 1000_000_007;
 
