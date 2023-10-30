@@ -10,6 +10,7 @@ public class SortIntegerWithnumberOfOnexLeecode1356 {
 
 	}
 
+	// added solution
 	public int[] sortByBits(int[] arr) {
 		Integer[] a = new Integer[arr.length];
 		for (int i = 0; i < arr.length; i++)
