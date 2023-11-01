@@ -10,6 +10,7 @@ public class FindModeInBinarySearchTreeLeetcode501 {
 
 	}
 
+	// added solution 
 	private TreeNode prev;
 	private int count = 0;
 	private int maxCount = -1;
