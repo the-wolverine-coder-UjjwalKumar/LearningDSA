@@ -10,6 +10,7 @@ public class SeatReservationManager1845 {
 
 	}
 
+	// added solution
 	private final Queue<Integer> seats;
 	private int smallest;
 
