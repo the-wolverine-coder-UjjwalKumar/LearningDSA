@@ -7,6 +7,8 @@ public class CountNumberOfHomogeneousStringLeetcode1759 {
 
 	}
 
+	
+	// added solution
 	public int countHomogenous(String s) {
 		int res = 0, cur = 0, count = 0, mod = 1_000_000_007;
 		for (int i = 0; i < s.length(); ++i) {
