@@ -12,6 +12,7 @@ public class RestoreArrayFromAdjacentLeetcode1743 {
 
 	}
 
+	// added solution
 	public int[] restoreArray(int[][] arr) {
 
 		Map<Integer, List<Integer>> map = new HashMap<>();
