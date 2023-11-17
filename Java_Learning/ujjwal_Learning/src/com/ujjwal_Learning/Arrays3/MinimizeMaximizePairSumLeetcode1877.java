@@ -9,6 +9,7 @@ public class MinimizeMaximizePairSumLeetcode1877 {
 
 	}
 
+	// added solution
 	public int minPairSum(int[] nums) {
 		Arrays.sort(nums);
 		int max = 0;
