@@ -9,6 +9,7 @@ public class FreqOfMostFrequentElementLeetcode1838 {
 
 	}
 
+	// added solution
 	public int maxFrequency(int[] nums, int k) {
 		Arrays.sort(nums);
 
