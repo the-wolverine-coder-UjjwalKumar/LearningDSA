@@ -9,6 +9,7 @@ public class CountNicePairsInArrayLeetcode1814 {
 
 	}
 
+	// added solution 
 	int MOD = 1000000007;
 
 	public int rev(int n) {
