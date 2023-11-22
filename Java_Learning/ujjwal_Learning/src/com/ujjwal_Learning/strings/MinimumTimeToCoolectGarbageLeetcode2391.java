@@ -20,7 +20,7 @@ public class MinimumTimeToCoolectGarbageLeetcode2391 {
 						mul = p == 0 ? mul + 1 : mul;
 						p++;
 						break;
-					case 'G':
+					case 'G': 
 						mul = g == 0 ? mul + 1 : mul;
 						g++;
 						break;
