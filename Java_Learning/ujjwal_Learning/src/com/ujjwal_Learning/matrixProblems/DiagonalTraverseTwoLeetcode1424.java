@@ -11,6 +11,7 @@ public class DiagonalTraverseTwoLeetcode1424 {
 
 	}
 
+	// added diagonal traverse solution
 	public int[] findDiagonalOrder(List<List<Integer>> nums) {
 		int count = 0;
 		List<Stack<Integer>> list = new ArrayList<>();
