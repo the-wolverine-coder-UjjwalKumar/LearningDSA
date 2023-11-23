@@ -13,6 +13,7 @@ public class ArithmeticSubarrays1630 {
 
 	}
 
+	// added solution 
 	public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
 		List<Boolean> res = new ArrayList<Boolean>();
 		for (int i = 0; i < l.length; i++) {
