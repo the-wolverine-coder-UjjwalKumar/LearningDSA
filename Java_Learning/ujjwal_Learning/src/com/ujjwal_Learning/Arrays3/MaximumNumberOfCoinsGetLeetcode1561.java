@@ -9,6 +9,7 @@ public class MaximumNumberOfCoinsGetLeetcode1561 {
 
 	}
 
+	// added solution to get max coins
 	public int maxCoins(int[] A) {
 		Arrays.sort(A);
 		int res = 0, n = A.length;
