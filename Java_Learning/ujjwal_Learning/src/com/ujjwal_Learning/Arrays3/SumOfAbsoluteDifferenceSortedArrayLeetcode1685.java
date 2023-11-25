@@ -28,5 +28,7 @@ public class SumOfAbsoluteDifferenceSortedArrayLeetcode1685 {
 
             ans[i] = leftTotal + rightTotal;
         }
+        return ans;
+	}
 
 }
