@@ -7,6 +7,7 @@ public class NumberOf1BitLeetcode191 {
 
 	}
 
+	// count # of bits equal to 1
 	// you need to treat n as an unsigned value
 	public int hammingWeight(int n) {
 		int setBitCount = 0;
