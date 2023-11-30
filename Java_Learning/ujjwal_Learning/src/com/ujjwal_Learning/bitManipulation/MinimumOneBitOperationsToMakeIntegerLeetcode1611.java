@@ -7,6 +7,7 @@ public class MinimumOneBitOperationsToMakeIntegerLeetcode1611 {
 
 	}
 
+	// added solution to make 0 
 	public int minimumOneBitOperations(int n) {
 		if (n == 0)
 			return 0;
