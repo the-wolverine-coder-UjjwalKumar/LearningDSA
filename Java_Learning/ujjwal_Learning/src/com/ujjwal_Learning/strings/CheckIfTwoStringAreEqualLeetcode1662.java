@@ -7,7 +7,7 @@ public class CheckIfTwoStringAreEqualLeetcode1662 {
 
 	}
 
-	// Added Leetcode daily solution
+	// checking two string are equal or not
 	public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
 		int idx1 = 0, idx2 = 0, arrIdx1 = 0, arrIdx2 = 0;
 		while (arrIdx1 < word1.length && arrIdx2 < word2.length) {
