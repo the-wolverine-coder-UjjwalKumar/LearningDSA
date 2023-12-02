@@ -9,6 +9,7 @@ public class FindWordsFormedByCharacterLeetcode1160 {
 
 	}
 
+	// added solution
 	public int countCharacters(String[] words, String chars) {
 		HashMap<Character, Integer> countMap = new HashMap<>();
 		for (char c : chars.toCharArray()) {
