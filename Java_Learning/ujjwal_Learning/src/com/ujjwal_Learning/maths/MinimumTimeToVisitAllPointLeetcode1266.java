@@ -7,6 +7,7 @@ public class MinimumTimeToVisitAllPointLeetcode1266 {
 
 	}
 
+	// added solution to find the min time to visit all points
 	public int minTimeToVisitAllPoints(int[][] points) {
 		int ans = 0;
 		for (int i = 1; i < points.length; ++i) {
