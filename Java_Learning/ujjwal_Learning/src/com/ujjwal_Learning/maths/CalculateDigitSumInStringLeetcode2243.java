@@ -7,6 +7,7 @@ public class CalculateDigitSumInStringLeetcode2243 {
 
 	}
 
+	// added solution to get digit sum
 	public String digitSum(String s, int k) {
 		while (s.length() > k) {
 			String ns = ""; // replace the old string with updated one
