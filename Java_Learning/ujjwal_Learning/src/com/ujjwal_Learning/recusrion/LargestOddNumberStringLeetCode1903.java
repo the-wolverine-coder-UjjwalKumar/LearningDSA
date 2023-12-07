@@ -7,6 +7,7 @@ public class LargestOddNumberStringLeetCode1903 {
 
 	}
 
+	// added solution for largest odd number string
 	public String largestOddNumber(String num) {
 		for (int i = num.length() - 1; i >= 0; i--)
 			if (num.charAt(i) % 2 != 0)
