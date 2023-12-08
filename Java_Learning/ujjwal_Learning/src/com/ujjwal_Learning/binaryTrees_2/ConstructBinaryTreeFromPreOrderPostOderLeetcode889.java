@@ -11,7 +11,7 @@ public class ConstructBinaryTreeFromPreOrderPostOderLeetcode889 {
 	}
 
 	
-	// added leetcode soltuion
+	// added binary tree construct logic using pre and post order
 	Map<Integer, Integer> postMap = new HashMap<>();
 
 	public TreeNode constructFromPrePost(int[] pre, int[] post) {
