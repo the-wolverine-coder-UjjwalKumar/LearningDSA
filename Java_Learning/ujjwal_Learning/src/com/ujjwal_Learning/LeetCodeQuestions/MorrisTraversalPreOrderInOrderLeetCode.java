@@ -10,6 +10,7 @@ public class MorrisTraversalPreOrderInOrderLeetCode {
 
 	}
 	
+	// added morris traversal for inorder 
 	public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> inorder = new ArrayList<Integer>(); 
         
