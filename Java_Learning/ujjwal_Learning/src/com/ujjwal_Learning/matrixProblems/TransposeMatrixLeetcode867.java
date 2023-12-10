@@ -21,6 +21,7 @@ public class TransposeMatrixLeetcode867 {
 		return B;
 	}
 
+	// added inplace transpose impl
 	private void inPlace(int[][] A) {
 		int col = 0;
 		for (int i = 0; i < A.length; i++) {
