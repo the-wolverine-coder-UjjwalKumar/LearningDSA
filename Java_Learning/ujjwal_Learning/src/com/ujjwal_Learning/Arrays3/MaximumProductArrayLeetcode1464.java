@@ -7,6 +7,7 @@ public class MaximumProductArrayLeetcode1464 {
 
 	}
 
+	// added solution to fetch max product
 	public int maxProduct(int[] nums) {
 		int max1 = 0;
 		int max2 = 0;
