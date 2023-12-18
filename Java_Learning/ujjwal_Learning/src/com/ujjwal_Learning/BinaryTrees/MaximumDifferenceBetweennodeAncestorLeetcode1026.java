@@ -2,6 +2,7 @@ package com.ujjwal_Learning.BinaryTrees;
 
 public class MaximumDifferenceBetweennodeAncestorLeetcode1026 {
 
+	// added solution to find max diff b/w node and its ancestor
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//root = [8,3,10,1,6,null,14,null,null,4,7,13]
