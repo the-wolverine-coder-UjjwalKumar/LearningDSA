@@ -9,6 +9,7 @@ public class WidestVerticalAreaLeetcode1637 {
 
 	}
 
+	// added solution for widest vertical area
 	public int maxWidthOfVerticalArea(int[][] points) {
 		int L = points.length;
 		// y-coordinate of a point does not matter in width
