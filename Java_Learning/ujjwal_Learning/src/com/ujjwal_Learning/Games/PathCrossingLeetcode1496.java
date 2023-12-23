@@ -12,6 +12,7 @@ public class PathCrossingLeetcode1496 {
 
 	}
 
+	// added path crossing solution
 	public boolean isPathCrossing(String path) {
 		Set<Integer> set = new HashSet<>();
 		int i = 0, j = 0, base = 10001;
