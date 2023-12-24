@@ -37,7 +37,7 @@ public class MinimumChangesToMakeAlteringStringLeetcode1758 {
 	 * make it into 01 string.
 	 * 
 	 * We can do the same to find out res, the number of operation for 10 string.
-	 * But we don't have to, becaue this equals to s.length - res.
+	 * But we don't have to, because this equals to s.length - res.
 	 */
 
 	public int minOperations(String s) {
