@@ -8,6 +8,7 @@ public class DecodeWays91 {
 	}
 
 	// Leetcode daily solution
+	// updated solution
 	public int numDecodings(String s) {
 		if (s == null || s.length() == 0) {
 			return 0;
