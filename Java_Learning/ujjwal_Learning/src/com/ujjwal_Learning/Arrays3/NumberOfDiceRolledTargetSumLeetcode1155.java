@@ -10,6 +10,7 @@ public class NumberOfDiceRolledTargetSumLeetcode1155 {
 
 	}
 
+	// added solution to find out number of dice roll
 	int MOD = 1000000000 + 7;
 	Map<String, Integer> memo = new HashMap<>();
 
