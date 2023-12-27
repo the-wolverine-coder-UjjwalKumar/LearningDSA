@@ -7,6 +7,7 @@ public class MinimumTimeToMakeColorRopeLeetcode1578 {
 
 	}
 
+	// added solution to make color rope
 	public int minCost(String s, int[] cost) {
 		int n = s.length();
 		int result = 0;
