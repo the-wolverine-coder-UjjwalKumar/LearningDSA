@@ -9,6 +9,7 @@ public class MinimumDifficultyOfJobScheduleLeetcode1335 {
 
 	}
 
+	// added solution to find the min. difficulty of job schedule
 	public int minDifficulty(int[] jobDifficulty, int D) {
 		final int N = jobDifficulty.length;
 		if (N < D)
