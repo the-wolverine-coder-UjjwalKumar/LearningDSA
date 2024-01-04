@@ -7,6 +7,7 @@ public class LongestIncreasingSubsequenceIILeetcode2407 {
 
 	}
 
+	// added solution for LIS
 	public int lengthOfLIS(int[] nums, int k) {
 		SegmentTree root = new SegmentTree(1, 100000);
 		int res = 0;
