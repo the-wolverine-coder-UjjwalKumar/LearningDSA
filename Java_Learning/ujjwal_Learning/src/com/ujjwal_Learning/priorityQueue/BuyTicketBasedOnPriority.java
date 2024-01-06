@@ -12,6 +12,7 @@ public class BuyTicketBasedOnPriority {
 
 	}
 	
+	// added solution using PQ 
 	public static int buyTicket(int input[], int k) {
 		/* Your class should be named Solution
 		* Don't write main().
