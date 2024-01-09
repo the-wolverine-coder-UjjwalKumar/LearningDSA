@@ -9,7 +9,7 @@ public class LeafSimilarTreeLeetcode872 {
 
 	}
 
-	// added method to find similar leaf node values 
+	// added solution for similar leaf node trees
 	public boolean leafSimilar(TreeNode root1, TreeNode root2) {
 		Stack<TreeNode> s1 = new Stack<>(), s2 = new Stack<>();
 		s1.push(root1);
