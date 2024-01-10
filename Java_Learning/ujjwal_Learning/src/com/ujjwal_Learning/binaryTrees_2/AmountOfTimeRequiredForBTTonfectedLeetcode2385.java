@@ -9,6 +9,7 @@ public class AmountOfTimeRequiredForBTTonfectedLeetcode2385 {
 
 	}
 
+	// added solution to find out the time taken to infect the complete BT from starting node given
 	ArrayList<ArrayList<Integer>> ans;
 
 	public void burn(TreeNode root, int time, TreeNode exc) {
