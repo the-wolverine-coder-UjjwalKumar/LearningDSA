@@ -26,6 +26,7 @@ public class MaximumDifferenceBetweennodeAncestorLeetcode1026 {
 	// We pass the minimum and maximum values to the children,
 	// At the leaf node, we return max - min through the path from the root to the
 	// leaf.
+	// added recursive solution
 	public static int maxAncestorDiff(TreeNode root) {
 		return dfs(root, root.val, root.val);
 	}
