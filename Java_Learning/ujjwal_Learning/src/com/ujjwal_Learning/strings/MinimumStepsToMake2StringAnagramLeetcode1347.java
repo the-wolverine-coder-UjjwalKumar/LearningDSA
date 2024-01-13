@@ -7,6 +7,7 @@ public class MinimumStepsToMake2StringAnagramLeetcode1347 {
 
 	}
 
+	// added solution to make 2 string as anagram
 	public int minSteps(String s, String t) {
 		int n = s.length(), ans = 0;
 		int[] arr = new int[26];
