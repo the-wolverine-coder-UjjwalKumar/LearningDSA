@@ -12,6 +12,7 @@ public class DetermineIFTwoStringAreCloseLeetcode1657 {
 	private int N = 26;
 
 	// added solution to check if two half are equal in vowel counts or not
+	// added solution
 	public boolean closeStrings(String word1, String word2) {
 		// count the English letters
 		int[] arr1 = new int[N], arr2 = new int[N];
