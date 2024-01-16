@@ -51,6 +51,7 @@ public class InsertDeleteGetRandomLeetcode380 {
 		return true;
 	}
 
+	// added solution to get random element in O(1)
 	/** Get a random element from the set. */
 	public int getRandom() {
 		int max = list.size();
