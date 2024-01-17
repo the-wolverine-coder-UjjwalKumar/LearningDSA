@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class UniqueberOfOccuranceLeetcode1207 {
+public class UniqueNumberOfOccuranceLeetcode1207 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
