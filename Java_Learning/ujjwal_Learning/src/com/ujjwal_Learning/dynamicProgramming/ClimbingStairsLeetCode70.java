@@ -13,6 +13,7 @@ public class ClimbingStairsLeetCode70 {
 		return ans;
 	}
 
+	// added recursive solution to find the climbing stairs 
 	private static int rec(int n, int memo[]) {
 		if (n <= 1)
 			return 1;
