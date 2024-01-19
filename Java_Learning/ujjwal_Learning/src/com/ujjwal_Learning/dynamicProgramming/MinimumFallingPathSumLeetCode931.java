@@ -9,6 +9,7 @@ public class MinimumFallingPathSumLeetCode931 {
 
 	}
 
+	// added solution for min falling path sum
 	public int minFallingPathSum(int[][] matrix) {
 		int finalAns = Integer.MAX_VALUE;
 
