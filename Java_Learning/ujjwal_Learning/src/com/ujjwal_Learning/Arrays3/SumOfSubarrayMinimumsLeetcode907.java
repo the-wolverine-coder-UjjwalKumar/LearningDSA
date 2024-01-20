@@ -9,6 +9,7 @@ public class SumOfSubarrayMinimumsLeetcode907 {
 
 	}
 	
+	// added solution sum of subarrays min
 	public int sumSubarrayMins(int[] A) {
         Stack<Integer> stack = new Stack<>();
         int[] dp = new int[A.length + 1];
