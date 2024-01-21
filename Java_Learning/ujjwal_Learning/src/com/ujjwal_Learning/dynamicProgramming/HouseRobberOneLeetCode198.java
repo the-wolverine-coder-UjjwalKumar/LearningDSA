@@ -24,6 +24,7 @@ public class HouseRobberOneLeetCode198 {
 		return Math.max(dp[num.length][0], dp[num.length][1]);
 	}
 
+	// added solution for house robber using DP
 	public int rob(int[] num) {
 		// {2,7,9,3,1} i - 0 to 4 and length = 5
 
