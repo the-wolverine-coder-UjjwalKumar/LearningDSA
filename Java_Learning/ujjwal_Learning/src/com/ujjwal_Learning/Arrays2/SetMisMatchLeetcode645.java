@@ -7,6 +7,7 @@ public class SetMisMatchLeetcode645 {
 
 	}
 
+	// added solution to finsd out the missing and repeated elements
 	public int[] findErrorNums(int[] nums) {
 		if (nums == null || nums.length == 0) {
 			return new int[0];
