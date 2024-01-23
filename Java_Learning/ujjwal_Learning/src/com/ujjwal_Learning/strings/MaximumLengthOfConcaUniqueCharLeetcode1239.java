@@ -55,6 +55,7 @@ public class MaximumLengthOfConcaUniqueCharLeetcode1239 {
 		return ans[0];
 	}
 
+	// added solution to fetch max length of concatenated strings
 	private void dfs(List<String> arr, int[][] bitMap, int[] ans, int start, int curLen, int curBit) {
 		if (ans[0] < curLen)
 			ans[0] = curLen;
