@@ -9,7 +9,7 @@ public class PseudoPalindromicPathInBTLeetcode1457 {
 
 	int result = 0;
 
-	// added solution for pseudo palindromic path
+	// added solution for pseudo bindary tree palindromic path
 	public int pseudoPalindromicPaths(TreeNode root) {
 		int[] map = new int[10];
 		findPesudoPalindromUtil(root, map);
