@@ -7,8 +7,7 @@ public class LongestCommonSubsequenceLeetcode1143 {
 
 	}
 
-	// Recursive
-	// added recursive method implementation for LCS
+	// added solution to find LCS using recursion
 	public int longestCommonSubsequenceR(String text1, String text2) {
 		return longestCommonSubsequenceR(text1, text2, 0, 0);
 	}
