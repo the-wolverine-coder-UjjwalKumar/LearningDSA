@@ -7,6 +7,7 @@ public class OutOfBoundaryPathLeetcode576 {
 
 	}
 
+	// added solution to find out the ways to kick out ball out of grid
 	public int findPaths(int m, int n, int N, int i, int j) {
 		if (N <= 0)
 			return 0;
