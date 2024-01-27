@@ -7,6 +7,7 @@ public class KInversePairArrayLeetcode629 {
 
 	}
 
+	// added solution for k inverse pairs 
 	public int kInversePairs(int n, int k) {
 		int mod = 1000000007;
 		if (k > n * (n - 1) / 2 || k < 0)
