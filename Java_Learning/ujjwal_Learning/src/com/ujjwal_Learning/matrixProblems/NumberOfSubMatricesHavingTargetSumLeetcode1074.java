@@ -10,6 +10,7 @@ public class NumberOfSubMatricesHavingTargetSumLeetcode1074 {
 
 	}
 
+	// added solution 
 	public int numSubmatrixSumTarget(int[][] A, int target) {
 		int res = 0, m = A.length, n = A[0].length;
 		for (int i = 0; i < m; i++)
