@@ -10,6 +10,7 @@ public class EvaluateReversePolishNotationLeetcode150 {
 	}
 
 	// evaluate reverse polish notation
+	// added solution for evaluating reverse polish notation
 	public int evalRPN(String[] tokens) {
 		if (tokens.length == 0) {
 			throw new Error("Invalid input 'tokens'; length must be at least 1");
