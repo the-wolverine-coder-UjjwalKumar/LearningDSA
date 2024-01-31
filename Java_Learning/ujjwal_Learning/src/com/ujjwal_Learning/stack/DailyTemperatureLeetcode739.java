@@ -9,6 +9,7 @@ public class DailyTemperatureLeetcode739 {
 
 	}
 
+	// added solution to find out the daily temp. for next warmer day 
 	public int[] dailyTemperatures(int[] temperatures) {
 		final int m = temperatures.length;
 		final int[] ans = new int[m];
