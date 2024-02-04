@@ -9,6 +9,7 @@ public class MinimumWindowubStringLeetcode76 {
 
 	}
 
+	// added solution to find the substring exists for t in s
 	public String minWindow(String s, String t) {
 		if (s == null || s.length() < t.length() || s.length() == 0) {
 			return "";
