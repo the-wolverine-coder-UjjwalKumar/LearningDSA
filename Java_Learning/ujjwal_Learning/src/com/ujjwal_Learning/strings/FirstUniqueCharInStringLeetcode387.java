@@ -7,6 +7,7 @@ public class FirstUniqueCharInStringLeetcode387 {
 
 	}
 
+	// added solution 
 	public int firstUniqChar(String s) {
 		if (s == null || s.length() == 0)
 			return -1;
