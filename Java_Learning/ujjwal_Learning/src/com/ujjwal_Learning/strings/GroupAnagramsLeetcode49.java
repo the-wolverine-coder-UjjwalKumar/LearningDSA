@@ -12,8 +12,7 @@ public class GroupAnagramsLeetcode49 {
 
 	}
 
-	// Leetcode daily solution
-	// Added method to return all grp of anagrams
+	// added solution to fetch all the group anagrams
 	public List<List<String>> groupAnagrams(String[] strs) {
 		if (strs == null || strs.length == 0)
 			return new ArrayList<>();
