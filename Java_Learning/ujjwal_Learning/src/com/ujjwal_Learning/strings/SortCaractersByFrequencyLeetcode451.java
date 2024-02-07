@@ -11,6 +11,7 @@ public class SortCaractersByFrequencyLeetcode451 {
 
 	}
 
+	// added pq implementation to sort by char string
 	public String frequencySort(String s) {
 		Map<Character, Integer> map = new HashMap<>();
 
