@@ -11,6 +11,7 @@ public class LargestDivisibleSetLeetcode368 {
 
 	}
 
+	// added solution to find out the largest subset divisible
 	public List<Integer> largestDivisibleSubset(int[] nums) {
 		int n = nums.length;
 		int[] count = new int[n];
