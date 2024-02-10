@@ -9,6 +9,7 @@ public class PalindromicSubstringLeetcode647 {
 
 	int count = 1;
 
+	// added solution for palindromic string
 	public int countSubstrings(String s) {
 		if (s.length() == 0)
 			return 0;
