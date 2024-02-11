@@ -13,6 +13,7 @@ public class CherryPickupTwoLeetcode1463 {
 		return dfs(grid, m, n, 0, 0, n - 1, dp);
 	}
 
+	// added solution to find out the cherry pick up 
 	int dfs(int[][] grid, int m, int n, int r, int c1, int c2, Integer[][][] dp) {
 		if (r == m)
 			return 0; // Reach to bottom row
