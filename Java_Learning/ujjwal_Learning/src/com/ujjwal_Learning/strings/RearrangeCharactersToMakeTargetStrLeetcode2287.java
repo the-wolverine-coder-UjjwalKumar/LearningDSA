@@ -10,6 +10,7 @@ public class RearrangeCharactersToMakeTargetStrLeetcode2287 {
 
 	}
 
+	// added solution 
 	public int rearrangeCharacters(String s, String target) {
 		Map<Character, Integer> map = new HashMap<>();
 		Map<Character, Integer> map2 = new HashMap<>();
