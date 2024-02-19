@@ -8,6 +8,7 @@ public class PowerOfThreeLeetcode326 {
 	}
 
 	// Recursive Solution
+	// added solution
 	boolean isPowerOfThree(int n) {
 		if (n <= 1)
 			return n == 1;
