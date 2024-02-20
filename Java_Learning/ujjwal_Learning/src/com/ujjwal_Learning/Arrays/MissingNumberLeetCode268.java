@@ -20,6 +20,7 @@ public class MissingNumberLeetCode268 {
 	 * so all numbers are in the range [0,2]. 2 is the missing number in the range
 	 * since it does not appear in nums.
 	 */
+	// added solution to missing number
 	public int missingNumber(int[] nums) {
 		Arrays.sort(nums);
 
