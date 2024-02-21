@@ -7,6 +7,7 @@ public class BitwiseAndInRangeLeetcode201 {
 
 	}
 
+	// added solution 
 	public int rangeBitwiseAnd1(int m, int n) {
 		if (m == 0) {
 			return 0;
