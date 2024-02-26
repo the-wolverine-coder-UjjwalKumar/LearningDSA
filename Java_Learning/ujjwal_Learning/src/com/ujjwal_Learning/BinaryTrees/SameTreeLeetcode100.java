@@ -7,6 +7,7 @@ public class SameTreeLeetcode100 {
 
 	}
 
+	// added solution to check the same tree
 	public boolean isSameTree(TreeNode p, TreeNode q) {
 		if (p == null || q == null) {
 			return (p == q);
