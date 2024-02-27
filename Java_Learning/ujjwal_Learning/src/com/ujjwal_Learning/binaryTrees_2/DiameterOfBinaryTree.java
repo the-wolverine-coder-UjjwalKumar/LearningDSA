@@ -17,6 +17,7 @@ public class DiameterOfBinaryTree {
 
 	}
 	
+	// added solution to fetch diameter for given BT
 	public int diameterOfBinaryTree(TreeNode root) {
         int[] diameter = new int[1];
         height(root, diameter);
