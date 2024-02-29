@@ -54,7 +54,7 @@ public class EvenOddTreeLeetcode1609 {
 		}
 	}
 
-	public static boolean isEvenOddTree(TreeNode root) {
+	public static boolean isEvenOddTree1(TreeNode root) {
 		if (root == null)
 			return true;
 
