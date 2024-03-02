@@ -7,6 +7,7 @@ public class SquareOfSortedArrayLeetcode977 {
 
 	}
 
+	// added solution for sorted square array.
 	public int[] sortedSquares(int[] A) {
 		int n = A.length;
 		int[] result = new int[n];
