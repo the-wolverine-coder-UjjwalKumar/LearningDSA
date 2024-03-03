@@ -19,6 +19,7 @@ class Node {
  */
 public class DeleteLinkedListNodeLeetcode237 {
 
+	// sdded solution to delete a node.
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Node head = new Node(4);
