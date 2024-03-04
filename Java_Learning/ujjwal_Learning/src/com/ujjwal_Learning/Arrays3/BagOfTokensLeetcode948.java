@@ -9,6 +9,7 @@ public class BagOfTokensLeetcode948 {
 
 	}
 
+	// added greedy approch to solve this.
 	public int bagOfTokensScore(int[] A, int P) {
         Arrays.sort(A);
         int res = 0, points = 0, i = 0, j = A.length - 1;
