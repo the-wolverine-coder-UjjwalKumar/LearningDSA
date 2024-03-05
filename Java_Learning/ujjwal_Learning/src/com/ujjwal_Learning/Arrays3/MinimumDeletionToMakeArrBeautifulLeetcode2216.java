@@ -7,6 +7,7 @@ public class MinimumDeletionToMakeArrBeautifulLeetcode2216 {
 
 	}
 
+	// added solution to do min deletion
 	public int minDeletion(int[] nums) {
 		int count = 0;
 		for (int i = 0; i < nums.length - 1; ++i) {
