@@ -40,6 +40,7 @@ public class MiddleOfLinkedListLeetCode876 {
 	
 	// another method for finding the middle 
 	// using the fast and slow pointer fast -> speed 2x slow - > speed x
+	// adding solution using fast n slow pointer with gap n 2x speed
 	public static ListNode middleNode2(ListNode head) {
 		if(head==null) return head;
 		
