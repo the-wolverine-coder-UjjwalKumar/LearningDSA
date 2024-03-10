@@ -32,6 +32,7 @@ public class IntersectionOfArraysLeetcode349 {
 	}
 
 	// Sort both array and using two pointer
+	// added solution to find out the intersection of two arrays
 	public int[] intersectionM2(int[] nums1, int[] nums2) {
 		Set<Integer> set = new HashSet<>();
 		Arrays.sort(nums1);
