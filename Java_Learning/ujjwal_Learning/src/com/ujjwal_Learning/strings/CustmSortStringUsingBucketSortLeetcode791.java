@@ -7,6 +7,7 @@ public class CustmSortStringUsingBucketSortLeetcode791 {
 
 	}
 
+	// added solution to sort the given string based on order provided in second string
 	public String customSortString(String S, String T) {
 		int[] bucket = new int[26];
 		for (char c : T.toCharArray()) {
