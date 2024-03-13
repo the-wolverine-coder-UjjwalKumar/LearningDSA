@@ -22,6 +22,7 @@ public class FindThePivotIntegerLeetcode2485 {
 		return -1;
 	}
 
+	// added solution for pivot element
 	public int pivotInteger(int n) {
 		// Binary Search
 		int sum = n * (n + 1) / 2;
