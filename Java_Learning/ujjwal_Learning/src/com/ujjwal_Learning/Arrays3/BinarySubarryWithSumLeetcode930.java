@@ -10,6 +10,7 @@ public class BinarySubarryWithSumLeetcode930 {
 
 	}
 
+	// added binary subarray sum
 	public int numSubarraysWithSum(int[] A, int target) {
 		Map<Integer, Integer> presum = new HashMap<>();
 		// Prefix sum
