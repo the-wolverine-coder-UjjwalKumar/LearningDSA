@@ -18,6 +18,7 @@ public class ProductofKLastNoLeetcode1352 {
 	        prefix = new ArrayList<>();
 	    }
 
+	// added solution for k last element
 	public void add(int num) {
 		if (num == 0) {
 			lastZeroIndex = prefix.size();
