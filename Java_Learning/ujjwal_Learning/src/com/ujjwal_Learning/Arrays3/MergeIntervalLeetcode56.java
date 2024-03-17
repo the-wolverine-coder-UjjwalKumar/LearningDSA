@@ -11,7 +11,7 @@ public class MergeIntervalLeetcode56 {
 		System.out.println(ans.toString());
 	}
 
-	// added method for merge interval
+//	added solution tof merge the intervals in sorted fashion
 	public static int[][] merge(int[][] intervals) {
 
 		if (intervals == null || intervals.length == 0)
