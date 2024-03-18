@@ -7,7 +7,7 @@ public class MergeIntervalLeetcode56 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[][] ans = merge(new int[][] {{1,1},{2,2},{3,3}});
+		int[][] ans = merge(new int[][] { { 1, 1 }, { 2, 2 }, { 3, 3 } });
 		System.out.println(ans.toString());
 	}
 
