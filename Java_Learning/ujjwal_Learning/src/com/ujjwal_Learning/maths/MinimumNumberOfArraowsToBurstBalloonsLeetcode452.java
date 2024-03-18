@@ -45,6 +45,7 @@ public class MinimumNumberOfArraowsToBurstBalloonsLeetcode452 {
 		return currentArrow;
 	}
 	
+	// added solution to find the min arrows req. to burst all balloons
 	public static int findMinArrowShots1(int[][] segments) {
         Arrays.sort(segments, (a, b) -> Integer.compare(a[1], b[1]));
         int ans = 0, arrow = 0;
