@@ -51,6 +51,7 @@ public class MergeInBetweenLinkedListLeetcode1669 {
 
 	}
 
+	// added solution for merging the nodes 
 	public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
 		ListNode first = list1;
 		ListNode second = list1;
