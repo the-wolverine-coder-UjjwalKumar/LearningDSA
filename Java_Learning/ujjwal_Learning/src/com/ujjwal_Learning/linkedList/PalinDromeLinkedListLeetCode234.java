@@ -30,6 +30,7 @@ public class PalinDromeLinkedListLeetCode234 {
 		return true;
 	}
 
+	// added palindrome solution
 	public ListNode reverse(ListNode head) {
 		ListNode prev = null;
 		while (head != null) {
