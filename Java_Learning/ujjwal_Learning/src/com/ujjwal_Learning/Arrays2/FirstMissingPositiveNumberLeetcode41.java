@@ -7,6 +7,7 @@ public class FirstMissingPositiveNumberLeetcode41 {
 
 	}
 
+	// added solution using cycle sort 
 	public int firstMissingPositive(int[] nums) {
 		for (int i = 0; i < nums.length;) {
 			int curr = nums[i];
