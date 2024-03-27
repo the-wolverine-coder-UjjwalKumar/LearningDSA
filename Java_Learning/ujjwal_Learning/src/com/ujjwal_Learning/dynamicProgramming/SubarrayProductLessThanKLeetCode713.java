@@ -7,6 +7,7 @@ public class SubarrayProductLessThanKLeetCode713 {
 
 	}
 
+	// added variable size sliding window solution
 	public int numSubarrayProductLessThanK(int[] nums, int k) {
 //      if (k == 0) return 0;
 //      int cnt = 0;
