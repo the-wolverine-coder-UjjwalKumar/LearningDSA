@@ -10,6 +10,7 @@ public class LengthOfLastWordsLeetCode58 {
 
 	}
 
+	// added solution for last word length
 	public int lengthOfLastWord(String s) {
 		s = s.trim();
 		List<String> words = Arrays.asList(s.split(" "));
