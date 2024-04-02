@@ -71,4 +71,24 @@ public class IsomorphicStringLeetcode205 {
 
 	}
 
+	public boolean isIsomorphic1(String s, String t) {
+		Map<Character, Character> map = new HashMap<>();
+		Map<Character, Boolean> usedChars = new HashMap<>();
+		StringBuilder res = new StringBuilder();
+		for (int i = 0; i < s.length(); i++) {
+			Character currChar = s.charAt(i);
+			if (!map.containsKey(currChar)) {
+				if (usedChars.containsKey(t.charAt(i)))
+					return false;
+				else {
+					map.put(currChar, t.charAt(i));
+					usedChars.put(t.charAt(i), true);
+				}
+			}
+			res.append(map.get(currChar));
+		}
+		return res.toString().equals(t);
+
+	}
+
 }
