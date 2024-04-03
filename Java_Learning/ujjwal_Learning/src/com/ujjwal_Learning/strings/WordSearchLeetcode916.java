@@ -37,6 +37,7 @@ public class WordSearchLeetcode916 {
 		return result;
 	}
 
+	// added solution to find out the word search
 	private boolean subset(int[] parent, int[] child) {
 		for (int i = 0; i < 26; i++) {
 			if (parent[i] < child[i])
