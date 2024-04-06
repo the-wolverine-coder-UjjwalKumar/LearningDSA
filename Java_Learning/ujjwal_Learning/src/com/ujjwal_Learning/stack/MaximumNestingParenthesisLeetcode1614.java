@@ -7,7 +7,7 @@ public class MaximumNestingParenthesisLeetcode1614 {
 
 	}
 
-	// added olution to find out the nested level of braces
+	// added olution to find out the nested level of bracesa
 	public int maxDepth(String s) {
 		int count = 0; // count current dept of "()"
 		int max = 0; // count max dept of "()"
