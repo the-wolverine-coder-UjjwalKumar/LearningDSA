@@ -9,7 +9,7 @@ public class MinimumRemoveToMakeValidSLeetCode1249 {
 
 	}
 
-	// added solution to find out its valid paranthesis
+	// added solution to find out its valid parenthesis
 	public String minRemoveToMakeValid1(String s) {
 		int len = s.length();
 		boolean[] b = new boolean[s.length()];
