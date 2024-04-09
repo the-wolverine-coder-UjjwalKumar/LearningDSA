@@ -7,6 +7,7 @@ public class TimeNeededToBuyTicketsLeetcode2073 {
 
 	}
 
+	// added solution for time to buy tickets
 	public int timeRequiredToBuy(int[] tickets, int k) {
 		int res = 0;
 		for (int i = 0; i < tickets.length; i++) {
