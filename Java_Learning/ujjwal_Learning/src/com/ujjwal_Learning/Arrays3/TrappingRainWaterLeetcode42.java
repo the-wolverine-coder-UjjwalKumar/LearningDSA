@@ -7,6 +7,7 @@ public class TrappingRainWaterLeetcode42 {
 
 	}
 
+	// added solution to find out the amt of water trapped.
 	public int trap(int[] height) {
 		if (height == null || height.length == 0) {
 			return 0;
