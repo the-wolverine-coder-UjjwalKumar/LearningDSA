@@ -14,6 +14,7 @@ public class SumOfLeftLeavesLeetcode404 {
 		return sum;
 	}
 
+	// added solution to find out the summation of left leaf nodes
 	public void helper(TreeNode root, boolean isLeft) {
 		if (root == null)
 			return;
