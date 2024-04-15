@@ -16,6 +16,7 @@ public class SumRootToLeafLeetCode129 {
 
 	int total;
 
+	// added solution to find out the sum of each path from root to leaf.
 	public int sumNumbers(TreeNode root) {
 		total = 0;
 		helper(root, 0);
