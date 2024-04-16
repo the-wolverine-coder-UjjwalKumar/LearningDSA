@@ -7,6 +7,7 @@ public class AddOneRowInBinarytreeLeetcode623 {
 
 	}
 
+	// added olution to append the row at given depth
 	private void dfs(TreeNode root, int depth, int v, int d) {
 		if (root == null)
 			return;
