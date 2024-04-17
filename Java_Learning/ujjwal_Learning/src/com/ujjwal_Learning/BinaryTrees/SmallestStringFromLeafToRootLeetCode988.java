@@ -13,6 +13,7 @@ public class SmallestStringFromLeafToRootLeetCode988 {
 		return dfs(root, "");
 	}
 
+	// added solution to find out the smallest lexographically smallest string from leaf to root.
 	private String dfs(TreeNode n, String str) {
 		if (n == null) {
 			return str;
