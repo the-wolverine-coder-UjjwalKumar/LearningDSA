@@ -7,6 +7,7 @@ public class IslandPerimeterLeetcode463 {
 
 	}
 
+	// added solution to find out the island perimeter
 	public int islandPerimeter(int[][] grid) {
 		int islands = 0, neighbours = 0;
 
