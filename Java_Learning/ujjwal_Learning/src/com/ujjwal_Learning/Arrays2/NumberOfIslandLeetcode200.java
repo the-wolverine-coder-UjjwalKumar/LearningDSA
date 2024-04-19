@@ -27,6 +27,7 @@ public class NumberOfIslandLeetcode200 {
 		return count;
 	}
 
+	// added solution to find out number of island	
 	private void DFSMarking(char[][] grid, int i, int j) {
 		if (i < 0 || j < 0 || i >= n || j >= m || grid[i][j] != '1')
 			return;
