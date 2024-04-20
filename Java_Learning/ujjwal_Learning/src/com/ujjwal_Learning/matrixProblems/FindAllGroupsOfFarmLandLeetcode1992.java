@@ -9,7 +9,8 @@ public class FindAllGroupsOfFarmLandLeetcode1992 {
 		// TODO Auto-generated method stub
 
 	}
-
+	
+	// added solution for all farm lands
 	public int[][] findFarmland(int[][] land) {
 		List<int[]> resultList = new ArrayList<>();
 		for (int i = 0; i < land.length; i++)
