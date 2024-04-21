@@ -7,6 +7,7 @@ public class CheckIfAll1sAreAtLeastKPlacesAwayLeetcode1437 {
 
 	}
 
+	// added solution to fetch kLengthAPart
 	public boolean kLengthApart(int[] nums, int k) {
 
 		for (int start = -1, i = 0; i < nums.length; i++)
