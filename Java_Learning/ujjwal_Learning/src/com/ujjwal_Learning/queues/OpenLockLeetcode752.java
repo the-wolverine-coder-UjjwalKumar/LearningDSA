@@ -13,6 +13,7 @@ public class OpenLockLeetcode752 {
 
 	}
 
+	// added solution for openLock
 	public int openLock(String[] deadends, String target) {
 		int steps = 0;
 		Queue<String> queue = new LinkedList<>();
