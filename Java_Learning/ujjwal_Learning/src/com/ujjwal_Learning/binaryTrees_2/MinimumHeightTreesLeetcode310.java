@@ -13,6 +13,7 @@ public class MinimumHeightTreesLeetcode310 {
 
 	}
 
+	// added solution find out the min height tree
 	public List<Integer> findMinHeightTrees(int n, int[][] edges) {
 		List<Integer>[] edgeList = new List[n];
 		for (int i = 0; i < n; i++) {
