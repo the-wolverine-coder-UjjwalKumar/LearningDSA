@@ -14,6 +14,7 @@ public class NthTribonacciLeetCode1137 {
 		System.out.println(tribonacci(25));
 	}
 
+	// added solution for the given nth tribonnaci number
 	public static int tribonacci(int n) {
 		int[] arr = new int[n + 1];
 
