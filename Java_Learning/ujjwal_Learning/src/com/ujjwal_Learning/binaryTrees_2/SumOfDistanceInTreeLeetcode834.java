@@ -13,6 +13,7 @@ public class SumOfDistanceInTreeLeetcode834 {
 	int[] res, count;
 	ArrayList<HashSet<Integer>> tree;
 
+	// added solution to find out sum of distance in tree
 	public int[] sumOfDistancesInTree(int N, int[][] edges) {
 		tree = new ArrayList<HashSet<Integer>>();
 		res = new int[N];
