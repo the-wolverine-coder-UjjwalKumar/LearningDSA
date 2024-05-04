@@ -9,6 +9,7 @@ public class BoatsToSavePeopleLeetCode881 {
 
 	}
 
+	// added greedy approach to save peoples
 	public int numRescueBoats(int[] people, int limit) {
 		Arrays.sort(people);
 		int i, j;
