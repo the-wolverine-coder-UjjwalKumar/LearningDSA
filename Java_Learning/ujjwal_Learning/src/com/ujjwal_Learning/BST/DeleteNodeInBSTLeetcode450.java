@@ -7,6 +7,7 @@ public class DeleteNodeInBSTLeetcode450 {
 
 	}
 
+	// added solution to delete a node
 	public TreeNode deleteNode(TreeNode root, int key) {
 		if (root == null) {
 			return null;
