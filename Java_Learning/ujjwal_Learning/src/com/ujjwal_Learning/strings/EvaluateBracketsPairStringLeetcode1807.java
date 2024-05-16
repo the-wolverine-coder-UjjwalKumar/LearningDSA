@@ -10,6 +10,7 @@ public class EvaluateBracketsPairStringLeetcode1807 {
 
 	}
 
+	// added solution to evaluate brackets pairs
 	public String evaluate(String s, List<List<String>> knowledge) {
 		StringBuilder sb = new StringBuilder();
 		HashMap<String, String> map = new HashMap<>();
